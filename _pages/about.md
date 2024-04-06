@@ -13,7 +13,7 @@ profile:
   #  <p>Burlington, VT 05405</p>
 
 news: false  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
@@ -21,7 +21,7 @@ social: false  # includes social icons at the bottom of the page
 
 
 
-OOOGAH. I am an associate professor in the Department of Economics at the University of Vermont and a research fellow at the Institute of Labor Economics (IZA). I previously worked as a visiting assistant professor at the National University of Singapore. I received a Ph.D. in economics and public policy from the University of Michigan in 2013 and a B.S. in economics, mathematics, and Spanish from the University of Michigan in 2006.
+I am an associate professor in the Department of Economics at the University of Vermont and a research fellow at the Institute of Labor Economics (IZA). I previously worked as a visiting assistant professor at the National University of Singapore. I received a Ph.D. in economics and public policy from the University of Michigan in 2013 and a B.S. in economics, mathematics, and Spanish from the University of Michigan in 2006.
 
 My research interests center on education and employment policy, with a particular focus on strengthening learning and facilitating school-to-work transitions among low-income youth. I also study other aspects of individual decision-making that have long-term impacts on poverty and earnings trajectories, such as fertility, marriage, and healthcare decisions.
 
