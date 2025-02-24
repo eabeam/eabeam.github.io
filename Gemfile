@@ -1,3 +1,6 @@
+ruby '3.0.2'  # Match the version your GitHub Actions is using
+gem 'bundler', '~> 2.3.0'  # Use a compatible bundler version
+
 source 'https://rubygems.org'
 group :jekyll_plugins do
     gem 'jekyll'
