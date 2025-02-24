@@ -20,7 +20,10 @@ social: false  # includes social icons at the bottom of the page
 **[Download CV (PDF)](../assets/pdf/beam_cv.pdf)**
 
 
+I am an Associate Professor of Economics at the University of Vermont. I am also an affiliate of the Gund Institute, a research fellow at the Institute of Labor Economics (IZA), and an invited researcher at the Abdul Latif Jameel Poverty Action Lab (J-PAL). 
 
-I am an associate professor in the Department of Economics at the University of Vermont and a research fellow at the Institute of Labor Economics (IZA). I previously worked as a visiting assistant professor at the National University of Singapore. I received a Ph.D. in economics and public policy from the University of Michigan in 2013 and a B.S. in economics, mathematics, and Spanish from the University of Michigan in 2006.
+As a development economist, my work focuses on employment, education, and social inclusion. My research explores practical solutions to challenges facing disadvantaged communities worldwide. I specialize in conducting randomized impact evaluations in partnership with governments and NGOs. These evaluations aim to identify, improve, and scale effective interventions to enhance learning outcomes, facilitate employment, and help households build better futures.
 
-My research interests center on education and employment policy, with a particular focus on strengthening learning and facilitating school-to-work transitions among low-income youth. I also study other aspects of individual decision-making that have long-term impacts on poverty and earnings trajectories, such as fertility, marriage, and healthcare decisions.
+My ongoing projects investigate social protection and graduation programs for ultra-poor households, childcare access and quality, labor market discrimination, and remote education technologies. My research spans multiple countries, including the Philippines, Bangladesh, Malawi, Zimbabwe, Brazil, and the United States.
+
+Before joining the University of Vermont, I was a Visiting Assistant Professor at the National University of Singapore. I earned my Ph.D. in Economics and Public Policy from the University of Michigan in 2013, where I also completed a B.S. in Economics, Mathematics, and Spanish.
