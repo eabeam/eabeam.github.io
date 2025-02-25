@@ -22,7 +22,7 @@ nav_order: 1
 - [AEA Trial Registry AEARCTR-0011747](https://www.socialscienceregistry.org/trials/11747)
 - [G<sup>2</sup>LM\|LIC Research Project Overview](https://g2lm-lic.iza.org/projects/policies-welfare/improving-childcare-quality-through-social-franchising/)
 
-**Gender Norms at Work: Impacts on Women’s Hiring and Workplace Experiences in Bangladesh**, with Asad Islam, Joshua Merfeld, and Naveen Wickremeratne
+**Gender Norms at Work: Impacts on Women’s Hiring and Workplace Experiences in Bangladesh**, with Joshua Merfeld and Naveen Wickremeratne
 - [AEA Trial Registry AEARCTR-0013473](https://www.socialscienceregistry.org/trials/13473)
 
 **Hiring Discrimination Against Transgender Job Applicants in the US Labor Market**, with Ivy Stanton
