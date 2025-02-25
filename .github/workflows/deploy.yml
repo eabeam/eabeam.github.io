@@ -18,9 +18,14 @@ jobs:
       uses: actions/checkout@v3
     - name: Setup Ruby
       uses: ruby/setup-ruby@v1
-      with:
+      with: 
         ruby-version: '3.0.2'
         bundler-cache: true
+    - name: Update bundler and fix URI gem issue
+      run: |
+        gem install bundler -v 2.4.0
+        bundle update --bundler
+        bundle config set force_ruby_platform true
     - name: Install deps
       run: |
         npm install -g mermaid.cli
