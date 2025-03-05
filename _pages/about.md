@@ -20,7 +20,7 @@ social: false  # includes social icons at the bottom of the page
 **[Download CV (PDF)](../assets/pdf/beam_cv.pdf)**
 
 
-I am an Associate Professor of Economics at the University of Vermont. I am also an affiliate of the Gund Institute, a research fellow at the Institute of Labor Economics (IZA), and an invited researcher at the Abdul Latif Jameel Poverty Action Lab (J-PAL). 
+I am an Associate Professor of Economics at the [University of Vermont](https://www.uvm.edu/cas/economics). I am also an affiliate of the [Gund Institute](https://www.uvm.edu/gund), a research fellow at the [Institute of Labor Economics (IZA)](https://www.iza.org/), and an invited researcher at the [Abdul Latif Jameel Poverty Action Lab (J-PAL)](https://www.povertyactionlab.org/). 
 
 As a development economist, my work focuses on employment, education, and social inclusion. My research explores practical solutions to challenges facing disadvantaged communities worldwide. I specialize in conducting randomized impact evaluations in partnership with governments and NGOs. These evaluations aim to identify, improve, and scale effective interventions to enhance learning outcomes, facilitate employment, and help households build better futures.
 
