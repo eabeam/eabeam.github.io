@@ -16,7 +16,7 @@ Dean Karlan, Maliha Khan, Doug Parkerson, Ashley Pople, Yasuyuki Sawada, Christo
 and Rocco Zizzamia. 
 
 - [NBER Working Paper No. 34309](https://www.nber.org/papers/w34309)
-- [Ungated Version (Oct 2025)]("/assets/pdf/Beam et al - 2025 - NBER - Group Coaching.pdf")
+- [Ungated Version (Oct 2025)](/assets/pdf/Beam%20et%20al%20-%202025%20-%20NBER%20-%20Group Coaching.pdf)
 
 **Lowering Barriers to Remote Education: Experimental Impacts on Parental Responses and Learning**, with Priya Mukherjee and Laia Navarro-Sola. 
 
