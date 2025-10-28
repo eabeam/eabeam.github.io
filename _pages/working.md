@@ -10,7 +10,16 @@ nav_order: 1
 
 ## working papers
 
+**Group versus Individual Coaching for Rural Social Protection Programs: Evidence from Uganda,
+Philippines, and Bangladesh**, with Lasse Brune, Narayan Das, Stefan Dercon, Nathanael Goldberg, Rozina Haque,
+Dean Karlan, Maliha Khan, Doug Parkerson, Ashley Pople, Yasuyuki Sawada, Christopher Udry,
+and Rocco Zizzamia. 
+
+- [NBER Working Paper No. 34309](https://www.nber.org/papers/w34309)
+- [Ungated Version (Oct 2025)]("/assets/pdf/Beam et al - 2025 - NBER - Group Coaching.pdf")
+
 **Lowering Barriers to Remote Education: Experimental Impacts on Parental Responses and Learning**, with Priya Mukherjee and Laia Navarro-Sola. 
+
 - [HECO Discussion Paper 2022-030](http://humcap.uchicago.edu/RePEc/hka/wpaper/Beam_Mukherjee_Navarro-Sola_2022_lowering-barriers-remote-education.pdf)
 - [IZA Working Paper No 15596](https://docs.iza.org/dp15596.pdf)
 
@@ -46,7 +55,6 @@ nav_order: 1
 **"Gendered Impacts of the Pandemic: Evidence from Vulnerable Households in Bangladesh,** with Priya Mukherjee. 
 - [IPA Results Brief (March 2021)](https://www.poverty-action.org/publication/policy-brief-impacts-pandemic-vulnerable-households-with-children-bangladesh)
 - [IGC Final Report (March 2021)](https://www.theigc.org/sites/default/files/2021/04/Beam-et-al-March-2021-final-report.pdf)
-
 
 
 
