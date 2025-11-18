@@ -10,31 +10,33 @@ nav_order: 1
 
 ## working papers
 
-**Group versus Individual Coaching for Rural Social Protection Programs: Evidence from Uganda,
-Philippines, and Bangladesh**, with Lasse Brune, Narayan Das, Stefan Dercon, Nathanael Goldberg, Rozina Haque,
-Dean Karlan, Maliha Khan, Doug Parkerson, Ashley Pople, Yasuyuki Sawada, Christopher Udry,
-and Rocco Zizzamia. 
+[**Group versus Individual Coaching for Rural Social Protection Programs: Evidence from Uganda, Philippines, and Bangladesh**]((/assets/pdf/Beam%20et%20al%20-%202025%20-%20NBER%20-%20Group Coaching.pdf)), with Lasse Brune, Narayan Das, Stefan Dercon, Nathanael Goldberg, Rozina Haque, Dean Karlan, Maliha Khan, Doug Parkerson, Ashley Pople, Yasuyuki Sawada, Christopher Udry, and Rocco Zizzamia. 
 
 - [NBER Working Paper No. 34309](https://www.nber.org/papers/w34309)
 - [Ungated Version (Oct 2025)](/assets/pdf/Beam%20et%20al%20-%202025%20-%20NBER%20-%20Group Coaching.pdf)
 
-**Lowering Barriers to Remote Education: Experimental Impacts on Parental Responses and Learning**, with Priya Mukherjee and Laia Navarro-Sola. 
+[**Lowering Barriers to Remote Education: Experimental Impacts on Parental Responses and Learning**](/assets/pdf/BeamMukherjeeNavarro-Sola_2025_WP_RemoteEd.pdf), with Priya Mukherjee and Laia Navarro-Sola. 
 
-- [HECO Discussion Paper 2022-030](http://humcap.uchicago.edu/RePEc/hka/wpaper/Beam_Mukherjee_Navarro-Sola_2022_lowering-barriers-remote-education.pdf)
-- [IZA Working Paper No 15596](https://docs.iza.org/dp15596.pdf)
+- Previous versions
+  - [HECO Discussion Paper 2022-030](http://humcap.uchicago.edu/RePEc/hka/wpaper/Beam_Mukherjee_Navarro-Sola_2022_lowering-barriers-remote-education.pdf)
+  - [IZA Working Paper No 15596](https://docs.iza.org/dp15596.pdf)
+
 
 ---
 
 ## works in progress
 
-**Improving Childcare Quality through Social Franchising**, with Anne Fitzpatrick and Emy Reimão.
+**Improving Childcare Quality through Social Franchising**, with Anne Fitzpatrick and Emy Reimão, [conditionally accepted at the *Journal of Development Economics,* Stage 1 Review](https://afosterri.org/jdepreresults/wp-content/uploads/2025/06/fitzpatrick-beam-reimao-childcare-quality-social-francising-DEVE-eb7f41ac1dc5c16cb897ce8cad6fdeb0.pdf)
+
 - [AEA Trial Registry AEARCTR-0011747](https://www.socialscienceregistry.org/trials/11747)
 - [G<sup>2</sup>LM\|LIC Research Project Overview](https://g2lm-lic.iza.org/projects/policies-welfare/improving-childcare-quality-through-social-franchising/)
 
-**Gender Norms at Work: Impacts on Women’s Hiring and Workplace Experiences in Bangladesh**, with Joshua Merfeld and Naveen Wickremeratne
+**Gender Norms at Work: Impacts on Women’s Hiring and Workplace Experiences in Bangladesh**, with Joshua Merfeld and Naveen Wickremeratne, [conditionally accepted at the *Journal of Development Economics,* Stage 1 Review](https://afosterri.org/jdepreresults/wp-content/uploads/2025/06/beam-merfeld-wickremeratne-improving-gender-norms-in-the-workpla-fae81fdd6c5501c2ce989054fa0522ab.pdf)
+
 - [AEA Trial Registry AEARCTR-0013473](https://www.socialscienceregistry.org/trials/13473)
 
 **Hiring Discrimination Against Transgender Job Applicants in the US Labor Market**, with Ivy Stanton
+
 - [AEA Trial Registry AEARCTR-0013199](https://www.socialscienceregistry.org/trials/13199)
 
 **Supporting Early Education to Increase Higher Education Enrollment in the Philippines**, with Noam Angrist, Dean Karlan, Rene Marlon Panti, and Christopher Udry
@@ -49,8 +51,6 @@ and Rocco Zizzamia.
 **Evaluation of the Titukulane Resilience Food Security Activity, Malawi**, with Lasse Brune, Jessica Goldberg, Dean Karlan, Craig McIntosh, and Christopher Udry.
 
 **Evaluation of the Takunda and Amalima Loko Resilience Food Security Activities, Zimbabwe**, with Lasse Brune, Jessica Goldberg, Dean Karlan, Craig McIntosh, and Matthew Summers.
-
-**Evaluation of the Okhokelamo ni Solho Resilience Food Security Activities, Mozambique,** with Lasse Brune, Doug Parkerson, Dean Karlan, and Craig McIntosh.
 
 **"Gendered Impacts of the Pandemic: Evidence from Vulnerable Households in Bangladesh,** with Priya Mukherjee. 
 - [IPA Results Brief (March 2021)](https://www.poverty-action.org/publication/policy-brief-impacts-pandemic-vulnerable-households-with-children-bangladesh)
