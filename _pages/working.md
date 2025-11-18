@@ -10,7 +10,7 @@ nav_order: 1
 
 ## working papers
 
-[**Group versus Individual Coaching for Rural Social Protection Programs: Evidence from Uganda, Philippines, and Bangladesh**]((/assets/pdf/Beam%20et%20al%20-%202025%20-%20NBER%20-%20Group Coaching.pdf)), with Lasse Brune, Narayan Das, Stefan Dercon, Nathanael Goldberg, Rozina Haque, Dean Karlan, Maliha Khan, Doug Parkerson, Ashley Pople, Yasuyuki Sawada, Christopher Udry, and Rocco Zizzamia. 
+[**Group versus Individual Coaching for Rural Social Protection Programs: Evidence from Uganda, Philippines, and Bangladesh**]((/assets/pdf/Beam%20et%20al%20-%202025%20-%20NBER%20-%20Group Coaching.pdf)), with Lasse Brune, Narayan Das, Stefan Dercon, Nathanael Goldberg, Rozina Haque, Dean Karlan, Maliha Khan, Doug Parkerson, Ashley Pople, Yasuyuki Sawada, Christopher Udry, and Rocco Zizzamia. *Conditionally accepted at American Economic Review: Insights*
 
 - [NBER Working Paper No. 34309](https://www.nber.org/papers/w34309)
 - [Ungated Version (Oct 2025)](/assets/pdf/Beam%20et%20al%20-%202025%20-%20NBER%20-%20Group Coaching.pdf)
