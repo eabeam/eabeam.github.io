@@ -44,17 +44,21 @@ nav_order: 1
 
 **Bridging the Soft Skills Gap Through Technology**, with Ricardo Dahis, Ursula Mello, and Laia Navarro-Sola.
 
-**Impact Evaluation of the DOLE Pilot Graduation Program**, with Lasse Brune, Dean Karlan, Yasu Sawada, and Christopher Udry.
--  [Project page](https://poverty-action.org/productive-asset-transfers-and-coaching-can-improve-livelihoods-people-extreme-poverty-philippines)
-- [Final Report (April 2022)](https://poverty-action.org/sites/default/files/2023-07/IPA%20DOLE%20Graduation%20Final%20Report_April%202022.pdf)
-
 **Evaluation of the Titukulane Resilience Food Security Activity, Malawi**, with Lasse Brune, Jessica Goldberg, Dean Karlan, Craig McIntosh, and Christopher Udry.
 
 **Evaluation of the Takunda and Amalima Loko Resilience Food Security Activities, Zimbabwe**, with Lasse Brune, Jessica Goldberg, Dean Karlan, Craig McIntosh, and Matthew Summers.
 
+
+
+## other projects
+
+**Impact Evaluation of the DOLE Pilot Graduation Program**, with Lasse Brune, Dean Karlan, Yasu Sawada, and Christopher Udry.
+
+-  [Project page](https://poverty-action.org/productive-asset-transfers-and-coaching-can-improve-livelihoods-people-extreme-poverty-philippines)
+-  [Final Report (April 2022)](https://poverty-action.org/sites/default/files/2023-07/IPA%20DOLE%20Graduation%20Final%20Report_April%202022.pdf)
+
 **"Gendered Impacts of the Pandemic: Evidence from Vulnerable Households in Bangladesh,** with Priya Mukherjee. 
+
 - [IPA Results Brief (March 2021)](https://www.poverty-action.org/publication/policy-brief-impacts-pandemic-vulnerable-households-with-children-bangladesh)
 - [IGC Final Report (March 2021)](https://www.theigc.org/sites/default/files/2021/04/Beam-et-al-March-2021-final-report.pdf)
-
-
 
