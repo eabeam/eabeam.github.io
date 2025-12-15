@@ -15,11 +15,15 @@ nav_order: 1
 - [NBER Working Paper No. 34309](https://www.nber.org/papers/w34309)
 - [Ungated Version (Oct 2025)](/assets/pdf/Beam%20et%20al%20-%202025%20-%20NBER%20-%20Group Coaching.pdf)
 
+Protocol for child development and nutrition measures in a large-scale randomized trial on daycare quality in Kenyan informal settlements, with Anne Fitzpatrick and Emy Reimão. *Revise and resubmit at BMJ: Open.*
+
 [**Lowering Barriers to Remote Education: Experimental Impacts on Parental Responses and Learning**](/assets/pdf/BeamMukherjeeNavarro-Sola_2025_WP_RemoteEd.pdf), with Priya Mukherjee and Laia Navarro-Sola. 
 
 - Previous versions
   - [HECO Discussion Paper 2022-030](http://humcap.uchicago.edu/RePEc/hka/wpaper/Beam_Mukherjee_Navarro-Sola_2022_lowering-barriers-remote-education.pdf)
   - [IZA Working Paper No 15596](https://docs.iza.org/dp15596.pdf)
+
+
 
 
 ---
