@@ -10,13 +10,6 @@ nav_order: 1
 
 ## working papers
 
-[**Group versus Individual Coaching for Rural Social Protection Programs: Evidence from Uganda, Philippines, and Bangladesh**](/assets/pdf/BeamEtAl2026_GroupCoaching.pdf), with Lasse Brune, Narayan Das, Stefan Dercon, Nathanael Goldberg, Rozina Haque, Dean Karlan, Maliha Khan, Doug Parkerson, Ashley Pople, Yasuyuki Sawada, Christopher Udry, and Rocco Zizzamia. *Conditionally accepted at American Economic Review: Insights*. Last updated January 2026
-
-- [NBER Working Paper No. 34309](https://www.nber.org/papers/w34309)
-- [Ungated NBER Working Paper (Oct 2025)](/assets/pdf/Beam%20et%20al%20-%202025%20-%20NBER%20-%20Group Coaching.pdf)
-
-Protocol for child development and nutrition measures in a large-scale randomized trial on daycare quality in Kenyan informal settlements, with Anne Fitzpatrick and Emy Reimão. *Revise and resubmit at BMJ: Open.*
-
 [**Lowering Barriers to Remote Education: Experimental Impacts on Parental Responses and Learning**](/assets/pdf/BeamMukherjeeNavarro-Sola_2025_WP_RemoteEd.pdf), with Priya Mukherjee and Laia Navarro-Sola. 
 
 - Previous versions
