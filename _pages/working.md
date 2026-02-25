@@ -26,8 +26,8 @@ nav_order: 1
 **Improving Childcare Quality through Social Franchising**, with Anne Fitzpatrick and Emy Reimão, [conditionally accepted at the *Journal of Development Economics,* Stage 1 Review](https://afosterri.org/jdepreresults/wp-content/uploads/2025/06/fitzpatrick-beam-reimao-childcare-quality-social-francising-DEVE-eb7f41ac1dc5c16cb897ce8cad6fdeb0.pdf)
 
 - [AEA Trial Registry AEARCTR-0011747](https://www.socialscienceregistry.org/trials/11747)
-- [G<sup>2</sup>LM|LIC Research Project Overview](https://g2lm-lic.iza.org/projects/policies-welfare/improving-childcare-quality-through-social-franchising/)
-- [Midline Policy Brief (G<sup>2</sup>LM|LIC)](https://g2lm-lic.iza.org/wp-content/uploads/2025/12/GLMLIC-Policy-Brief_082.pdf) (December 2025)
+- [G<sup>2</sup>LM\|LIC Research Project Overview](https://g2lm-lic.iza.org/projects/policies-welfare/improving-childcare-quality-through-social-franchising/)
+- [Midline Policy Brief (G2LM\|LIC)](https://g2lm-lic.iza.org/wp-content/uploads/2025/12/GLMLIC-Policy-Brief_082.pdf) (December 2025)
 
 **Gender Norms at Work: Impacts on Women’s Hiring and Workplace Experiences in Bangladesh**, with Joshua Merfeld and Naveen Wickremeratne, [conditionally accepted at the *Journal of Development Economics,* Stage 1 Review](https://afosterri.org/jdepreresults/wp-content/uploads/2025/06/beam-merfeld-wickremeratne-improving-gender-norms-in-the-workpla-fae81fdd6c5501c2ce989054fa0522ab.pdf)
 
