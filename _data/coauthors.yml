@@ -8,15 +8,13 @@
 
 "Hyman":
   - firstname: ["Joshua"]
-    url: https://www.jhu.edu/
 
 "Theoharides":
   - firstname: ["Caroline"]
-    url: https://www.economics.ox.ac.uk/
+    url: https://www.amherst.edu/people/facstaff/ctheoharides
 
 "Quimbo":
   - firstname: ["Stella"]
-    url: https://www.upd.edu.ph/
 
 "Masatioglu":
   - firstname: ["Yusufcan"]
@@ -32,7 +30,7 @@
 
 "Mukherjee":
   - firstname: ["Priya"]
-    url: https://www.bu.edu/
+    url: https://sites.google.com/site/economicspriyamukherjee/
 
 "Navarro-Sola":
   - firstname: ["Laia"]
@@ -40,7 +38,6 @@
 
 "Brune":
   - firstname: ["Lasse"]
-    url: https://www.dartmouth.edu/~lbrune/
 
 "Dercon":
   - firstname: ["Stefan"]
@@ -52,7 +49,7 @@
 
 "Zizzamia":
   - firstname: ["Rocco"]
-    url: https://www.saldru.uct.ac.za/
+    url: https://roccozizzamia.github.io/
 
 "Fitzpatrick":
   - firstname: ["Anne"]
@@ -64,7 +61,7 @@
 
 "Das":
   - firstname: ["Narayan"]
-    url: https://www.worldbank.org/
+    url: https://bigd.bracu.ac.bd/staffprofile/narayan-c-das/
 
 "Goldberg":
   - firstname: ["Nathanael", "N."]
@@ -72,59 +69,57 @@
 
 "Haque":
   - firstname: ["Rozina"]
-    url: https://www.poverty-action.org/
+    url: https://poverty-action.org/people/rozina-haque
 
 "Khan":
   - firstname: ["Maliha Noshin"]
-    url: https://www.poverty-action.org/
+    url: https://bigd.bracu.ac.bd/staffprofile/maliha-noshin-khan-2/
 
 "Pople":
   - firstname: ["Ashley"]
-    url: https://www.poverty-action.org/
+    url: https://www.ashleypople.com/
 
 "Sawada":
   - firstname: ["Yasuyuki"]
-    url: https://www.u-tokyo.ac.jp/en/
+    url: https://sites.google.com/site/yasuyukisawadapage/main
 
 "Parkerson":
   - firstname: ["Doug"]
-    url: https://www.poverty-action.org/
+    url: https://poverty-action.org/people/doug-parkerson
 
 "Reimão":
   - firstname: ["Emy"]
-    url: https://www.poverty-action.org/
+    url: https://poverty-action.org/people/maira-emy-reimao
 
 "Arenas":
   - firstname: ["Andreu"]
-    url: https://www.uab.cat/en/
+    url: https://sites.google.com/site/andreuarenasweb/home
 
 "Bertoni":
   - firstname: ["Marco"]
-    url: https://www.unive.it/
+    url: https://sites.google.com/site/marcobertoniunipd/
 
 "Bloem":
   - firstname: ["Jeffrey R."]
-    url: https://www.sbs.ox.ac.uk/
+    url: https://jeffbloem.wordpress.com/
 
 "Burli":
   - firstname: ["Pralhad"]
-    url: https://www.ieda.org.nz/
 
 "Chen":
   - firstname: ["Naibin"]
-    url: https://www.hsu.ac.th/
+    url: https://naibinchen.weebly.com/
 
 "Grieco":
   - firstname: ["Paul"]
-    url: https://www.coloradocollege.edu/
+    url: https://paulgrieco.github.io/
 
 "Ekpe":
   - firstname: ["Godwin"]
-    url: https://www.tcd.ie/
 
 "Pugatch":
   - firstname: ["Todd"]
-    url: https://www.osu.edu/
+    url: https://sites.google.com/site/toddpugatch/
 
 "Huntington-Klein":
   - firstname: ["Nick"]
@@ -136,4 +131,3 @@
 
 "Wentz":
   - firstname: ["Anna"]
-    url: https://www.umn.edu/
