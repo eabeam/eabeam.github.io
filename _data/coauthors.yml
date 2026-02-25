@@ -1,34 +1,139 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"McKenzie":
+  - firstname: ["David"]
+    url: https://www.worldbank.org/en/about/people/david-mckenzie
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Yang":
+  - firstname: ["Dean"]
+    url: https://lsa.umich.edu/econ/people/faculty/deanyang.html
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Hyman":
+  - firstname: ["Joshua"]
+    url: https://www.jhu.edu/
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Theoharides":
+  - firstname: ["Caroline"]
+    url: https://www.economics.ox.ac.uk/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Quimbo":
+  - firstname: ["Stella"]
+    url: https://www.upd.edu.ph/
 
-"Przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"Masatioglu":
+  - firstname: ["Yusufcan"]
+    url: https://sites.google.com/site/ymasatioglu/
 
-"Schrödinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"Watson":
+  - firstname: ["Tara"]
+    url: https://tararwatson.com/
 
-"Lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"Shrestha":
+  - firstname: ["Slesh", "Slesh A."]
+    url: https://sites.google.com/site/sleshshrestha/home
 
-"Planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"Mukherjee":
+  - firstname: ["Priya"]
+    url: https://www.bu.edu/
+
+"Navarro-Sola":
+  - firstname: ["Laia"]
+    url: https://laianavarrosola.com/
+
+"Brune":
+  - firstname: ["Lasse"]
+    url: https://www.dartmouth.edu/~lbrune/
+
+"Dercon":
+  - firstname: ["Stefan"]
+    url: https://www.sbs.ox.ac.uk/people/stefan-dercon
+
+"Karlan":
+  - firstname: ["Dean"]
+    url: https://www.poverty-action.org/people/dean-karlan
+
+"Zizzamia":
+  - firstname: ["Rocco"]
+    url: https://www.saldru.uct.ac.za/
+
+"Fitzpatrick":
+  - firstname: ["Anne"]
+    url: https://www.poverty-action.org/people/anne-fitzpatrick
+
+"Udry":
+  - firstname: ["Christopher"]
+    url: https://www.sbs.ox.ac.uk/people/chris-udry
+
+"Das":
+  - firstname: ["Narayan"]
+    url: https://www.worldbank.org/
+
+"Goldberg":
+  - firstname: ["Nathanael", "N."]
+    url: https://www.poverty-action.org/people/nathanael-goldberg
+
+"Haque":
+  - firstname: ["Rozina"]
+    url: https://www.poverty-action.org/
+
+"Khan":
+  - firstname: ["Maliha Noshin"]
+    url: https://www.poverty-action.org/
+
+"Pople":
+  - firstname: ["Ashley"]
+    url: https://www.poverty-action.org/
+
+"Sawada":
+  - firstname: ["Yasuyuki"]
+    url: https://www.u-tokyo.ac.jp/en/
+
+"Parkerson":
+  - firstname: ["Doug"]
+    url: https://www.poverty-action.org/
+
+"Reimão":
+  - firstname: ["Emy"]
+    url: https://www.poverty-action.org/
+
+"Arenas":
+  - firstname: ["Andreu"]
+    url: https://www.uab.cat/en/
+
+"Bertoni":
+  - firstname: ["Marco"]
+    url: https://www.unive.it/
+
+"Bloem":
+  - firstname: ["Jeffrey R."]
+    url: https://www.sbs.ox.ac.uk/
+
+"Burli":
+  - firstname: ["Pralhad"]
+    url: https://www.ieda.org.nz/
+
+"Chen":
+  - firstname: ["Naibin"]
+    url: https://www.hsu.ac.th/
+
+"Grieco":
+  - firstname: ["Paul"]
+    url: https://www.coloradocollege.edu/
+
+"Ekpe":
+  - firstname: ["Godwin"]
+    url: https://www.tcd.ie/
+
+"Pugatch":
+  - firstname: ["Todd"]
+    url: https://www.osu.edu/
+
+"Huntington-Klein":
+  - firstname: ["Nick"]
+    url: https://nickchk.com/
+
+"Bailey":
+  - firstname: ["Martha J."]
+    url: https://mjos.umich.edu/directory/faculty-directory/martha-j-bailey/
+
+"Wentz":
+  - firstname: ["Anna"]
+    url: https://www.umn.edu/
