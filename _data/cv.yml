@@ -1,97 +1,266 @@
-- title: General Information
+- title: Contact Information
   type: map
   contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+    - name: Name
+      value: Emily A. Beam
+    - name: Department
+      value: Department of Economics, University of Vermont
+    - name: Email
+      value: emily.beam@uvm.edu
+    - name: Phone
+      value: +1 802 656 5735
+    - name: Website
+      value: https://eabeam.github.io
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Ph.D. in Public Policy and Economics
+      institution: University of Michigan
+      year: 2013
+    - title: M.A. in Economics
+      institution: University of Michigan
+      year: 2008
+    - title: B.S. in Economics, Mathematics, and Spanish (summa cum laude)
+      institution: University of Michigan
+      year: 2006
 
-- title: Experience
+- title: Academic Appointments
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Associate Professor of Economics
+      institution: Department of Economics, University of Vermont
+      year: 2022–
+    - title: Assistant Professor of Economics
+      institution: Department of Economics, University of Vermont
+      year: 2016–22
+    - title: Visiting Assistant Professor of Economics
+      institution: Department of Economics, National University of Singapore
+      year: 2013–16
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Affiliations
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Affiliate Faculty
+      institution: UVM Graduate College
+      year: 2025–
+    - title: Affiliate
+      institution: Gund Institute for Environment
+      year: 2025–
+    - title: Invited Researcher
+      institution: Abdul Latif Jameel Poverty Action Lab (J-PAL)
+      year: 2023–
+    - title: Research Fellow
+      institution: Institute of Labor Economics (IZA)
+      year: 2017–
+    - title: Research Affiliate
+      institution: Institute of Labor Economics (IZA)
+      year: 2013–17
+    - title: Visiting Scholar
+      institution: Population Studies Center, University of Michigan
+      year: 2016
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
+- title: Teaching
   type: nested_list
   contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+    - title: University of Vermont
       items:
-        - Description 1.
-        - Description 2.
+        - Economics of Discrimination (HCOL185 / HCOL2000), 2022–25
+        - Principles of Microeconomics (EC012 / ECON1450), 2017–25
+        - Applied Econometrics (EC200), 2016–22, 2026
+        - Econ Book Club (EC096), 2022
+        - Economic Development (EC140), 2017–21
+        - Using Data for Economic Policy (EC137), 2021
+        - Principles of Macroeconomics (EC011), 2017
+    - title: National University of Singapore
+      items:
+        - Foundations for Econometrics (EC2303), 2013–15
+        - Applied Population Economics (EC4363), 2015
 
-- title: Other Interests
-  type: list
+- title: Grants, Fellowships, and Awards
+  type: time_table
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - year: 2025
+      items:
+        - "$200,000 J-PAL Innovation in Government Initiative: Adapting the Graduation Approach for Scale in Government Livelihood Programs in the Philippines"
+        - "$250,000 Jobs and Opportunity Initiative: Employer Demand for Soft Skills: Evidence from Brazil (co-PI with Ricardo Dahis, Ursula Mello, and Laia Navarro-Sola)"
+    - year: 2024
+      items:
+        - "$100,000 Jobs and Opportunity Initiative Brazil: Bridging the Soft Skills Gap Through Technology (with Ricardo Dahis, Ursula Mello, and Laia Navarro-Sola)"
+        - "$167,000 Livelihood Impact Fund: Improving Childcare Quality through Social Franchising (with Anne Fitzpatrick)"
+    - year: 2023
+      items:
+        - "$5,000 UVM Faculty Research Support Award: Discrimination against Transgender Jobseekers"
+        - "$375,000 Bill and Melinda Gates Foundation: Improving Childcare Quality through Social Franchising (with Anne Fitzpatrick)"
+        - "€400,000 Gender, Growth, and Labour Markets in Low Income Countries Programme (G2LM|LIC): Improving Childcare Quality through Social Franchising (with Anne Fitzpatrick)"
+        - "£225,000 Private Enterprise Development in Low-Income Countries Programme: Gender norms at work: Impacts on women's hiring and workplace experiences in Bangladesh (with Josh Merfeld)"
+    - year: 2022
+      items:
+        - "$9,430 J-PAL Jobs and Opportunity Initiative Brazil: Improving employability and matching through soft skill assessment and development (with Laia Navarro-Sola and Ricardo Dahis)"
+    - year: 2021
+      items:
+        - "Economic Inquiry Best Article Award"
+        - "$9,890 J-PAL Innovation in Government Initiative: Bridging the learning gaps in the time of COVID (with Dean Yang)"
+    - year: 2020
+      items:
+        - "£15,000 International Growth Center (IGC): Strategies and resource gaps among vulnerable households (with Priya Mukherjee)"
+        - "$255,163 World Bank Strategic Impact Evaluation Fund (SIEF): Take-up, Use, and Effectiveness of Remote Learning Technologies: Lessons from the Covid-19 Pandemic (with Priya Mukherjee and Laia Navarro-Sola)"
+    - year: 2018
+      items:
+        - "AUD$245,218.40 Basic Education Sector Transformation program, DFAT: Leadership and Development Trial Baseline Study"
+        - "£18,133 Department for International Development (DFID): Youth Education and Skills for Economic Growth (with Priya Mukherjee)"
+    - year: 2017
+      items:
+        - "$50,000 J-PAL Government Partnership Initiative: Institutionalizing Evidence at the Department of Education, Philippines (with Dean Yang)"
+    - year: 2015
+      items:
+        - "$424,993 International Initiative for Impact Evaluation (3ie): Evaluation of the DOLE Special Program for the Employment of Students (SPES)"
+        - "$19,500 Asian Development Bank: Key Indicators for Asia and the Pacific 2015 (with Joshua Hyman and Caroline Theoharides)"
+        - "SGD$4,907 (US$3,595) FASS Staff Research Support Scheme: Labor Market Demand in the Philippines (with Joshua Hyman and Caroline Theoharides)"
+        - "$74,685 Blue Cross Blue Shield of Michigan Foundation: Promoting Preventive Health Care in Michigan (with Yusufcan Masatioglu, Tara Watson, and Dean Yang)"
+    - year: 2014
+      items:
+        - "SGD$97,500 (US$76,947) JY Pillay Comparative Asia Research Centre Global Asia Institute: Demographic Transitions in Asia (with Slesh A. Shrestha)"
+    - year: 2013
+      items:
+        - "Rackham One-Term Dissertation Fellowship"
+    - year: 2012
+      items:
+        - "Foreign Language and Area Studies Fellowship for Advanced Filipino (declined)"
+        - "Doctoral Research Award, Center for International Business Education"
+    - year: 2011
+      items:
+        - "International Research Grant, Sasakawa Young Leaders Fellowship Fund"
+        - "Small Research Grant, Population Studies Center"
+        - "Doctoral Research Award, Center for International Business Education"
+    - year: 2010
+      items:
+        - "Small Research Grant, International Policy Center"
+        - "Rackham Graduate Student Research Fellowship"
+    - year: 2009
+      items:
+        - "Graduate Student Fellowship Honorable Mention, National Science Foundation"
+    - year: 2007
+      items:
+        - "Peter and Julie Borish Dissertation Fellowship"
+        - "Phi Beta Kappa, University of Michigan"
+
+- title: Professional Service
+  type: nested_list
+  contents:
+    - title: Reviewer
+      items:
+        - American Economic Journal&#58; Applied Economics, American Economic Review, Demography, Economic Development and Cultural Change, Economic Inquiry, Economics Journal, Journal of Development Economics, Journal of Economic Behavior and Organization, Journal of Health Economics, Journal of Human Resources, Journal of Population Economics, Journal of Public Policy Analysis and Management, Labour Economics, Review of Economics and Statistics
+    - title: Proposal Reviewer
+      items:
+        - Institute for the Study of Labor (IZA), Innovations for Poverty Action Social Protection Program, J-PAL Schmidt Sciences AI at Work, BIGD Women's Economic Empowerment and Digital Connectivity
+    - title: Scientific Committee
+      items:
+        - Northeast Universities Development Consortium Conference, 2020–22; Philippines Socioeconomic Panel Survey Focus Area Committee, 2023–24; MDev Conference, 2024 and 2026
+    - title: Session Organizer
+      items:
+        - "ASSA Meetings, January 2026: Economic Impact of Childcare Interventions"
+        - "Society for Research in Education Effectiveness Conference, September 2021: Leveraging technology to promote student and parental engagement and learning"
+    - title: Session Chair
+      items:
+        - "2022: NEUDC annual conference, Learning and Misinformation"
+        - "2021: NEUDC annual conference"
+        - "2020: NEUDC annual conference, Recruitment and Job Search"
+    - title: Discussant
+      items:
+        - Allied Social Science Association Meeting, PEI Technical Workshop (2024), Northeast Universities Economic Development Consortium (NEUDC) annual conference (2023), CSAE annual conference (2022), NOVAFRICA Conference (2022), Midwest International Economic Development Conference (2022), IZA/World Bank/NJOD Conference on Jobs and Development (2018), Eastern Economics Association annual conference (2017), Northeast Universities Development Consortium (NEUDC) annual conference (2017)
+    - title: Mentor
+      items:
+        - "2024: CeMENT, Committee on the Status of Women in the Economics Profession (CSWEP)"
+        - "2021: AMIE Workshop in Applied Microeconomics, Association for Mentoring and Inclusion in Economics"
+        - "2020: Successfully Navigating Your Economics PhD Virtual Mentoring Workshop, CSWEP"
+    - title: Instructor
+      items:
+        - "2024: IZA/FCDO G²LM|LIC, J-PAL MENA and UNICEF Egypt Advanced Course on Evaluating Social Programmes"
+
+- title: University Service
+  type: nested_list
+  contents:
+    - title: University of Vermont
+      items:
+        - "Chair, Faculty Standards Committee, 2025–"
+        - "Member, Economics NTT Search Committee, 2025–26"
+        - "Member, Faculty Standards Committee, 2022–25"
+        - "Member, Academic Integrity Council, 2021–"
+        - "Member, CDAE Faculty Search Committee, 2021–23"
+        - "Member, Department Honors Committee, 2021–23"
+        - "Member, Economics NTT Search Committee, 2022"
+        - "Chair, College of Arts and Sciences Honors Committee, 2020–21"
+        - "Member, College of Arts and Sciences Honors Committee, 2018–21"
+        - "Member, Department Honors Committee, 2016–18"
+    - title: National University of Singapore
+      items:
+        - "Coordinator, Applied Economics Brown Bag Seminar, 2014–15"
+
+- title: Selected Invited Seminars and Presentations
+  type: time_table
+  contents:
+    - year: 2026
+      items:
+        - "ASSA Meetings, Philadelphia; Partnership for Economic Inclusion, World Bank"
+    - year: 2025
+      items:
+        - "The Ohio State University, Bowdoin College, University of Minnesota"
+    - year: 2024
+      items:
+        - "University of Richmond CDES Sustainable Development Conference, Prato, Italy; MDev, University of Michigan; Northeast Universities Development Consortium Conference, Northeastern University"
+    - year: 2023
+      items:
+        - "IPA & GPRL Researcher Gathering, Evanston, IL; CSAE Conference, Oxford University"
+    - year: 2022
+      items:
+        - "Northeast Universities Development Consortium Conference, Yale University; University of Nevada-Reno; NOVAFRICA Conference; Advances with Field Experiments, University of Chicago; Asian Impact Webinar; Midwest International Economic Development Conference, Minneapolis, MN"
+    - year: 2021
+      items:
+        - "KDI School-World Bank DIME Conference on Impact Evaluation; Research Methods and Measurement Conference, IPA-Northwestern; Society for Research on Education Effectiveness Conference; AEA/ASSA Annual Meetings; University of Oklahoma"
+    - year: 2020
+      items:
+        - "From Research to Policy in Youth Employment Webinar, Innovations for Poverty Action; International Policy Research Institute; New Directions in Graduation Research Conference, Innovations for Poverty Action"
+    - year: 2019
+      items:
+        - "Asian Development Bank, Mandaluyong, Philippines; Midwest International Economic Development Conference, University of Wisconsin-Madison; University of Texas at Austin; KDIS-sje-ADB Impact Evaluation Conference, Seoul, Korea"
+    - year: 2018
+      items:
+        - "Eastern Economics Association Conference, Boston, MA; ADB-ADBI-University of Tokyo Conference on Behavioral and Experimental Economics for Development Policy, Tokyo, Japan; Colby College; Middlebury College; IZA/World Bank/NJD Conference on Jobs and Development, Bogotá, Colombia; Dartmouth College"
+    - year: 2017
+      items:
+        - "Asian Development Bank, Mandaluyong, Philippines; Philippine Institute for Development Studies, Makati, Philippines; Northeast Economics of Education Workshop, University of Connecticut; Northeast Universities Development Consortium Conference, Tufts University"
+    - year: 2016
+      items:
+        - "World Bank Development Research Group, Kuala Lumpur, Malaysia"
+    - year: 2015
+      items:
+        - "University of Melbourne, University of Sydney, University of Wollongong, University of the Philippines School of Economics"
+    - year: 2014
+      items:
+        - "17th Australasian Labor Econometrics Workshop, University of Otago, New Zealand; sje-ADB Making Impact Evaluation Matter, Manila, Philippines"
+    - year: 2013
+      items:
+        - "Northeast Universities Development Consortium Conference, Harvard University"
+    - year: 2012
+      items:
+        - "7th IZA/World Bank Conference&#58; Employment and Development, New Delhi, India; University of Michigan Economic Development Seminar; Population Association of America"
+
+- title: Supervision and Advising
+  type: nested_list
+  contents:
+    - title: Honors Theses (Primary Advisor)
+      items:
+        - "2025: David Richardson (in progress)"
+    - title: Graduate Theses
+      items:
+        - "2023: Ivy Stanton, Labor market discrimination for transgender individuals"
+        - "Zach Miller, Labor force impacts of the 2008 recession&#58; Evidence from the Philippines"
+    - title: Master's Theses
+      items:
+        - "2015: Akshaya Gautham, Impact of conditional cash transfers on women's autonomy and the use of contraception&#58; an empirical study of the Pantawid Pamilyang Program in the Philippines"
+        - "Xie Teleisi Tracy, Do exchange rate fluctuations affect international student mobility?"
+        - "2014: Lim Ting Fan Vanessa, The impact of immigration on natives' self-reported happiness"
+    - title: Independent Study / Undergraduate Research Opportunity Program
+      items:
+        - "Stephanie Loo Ming (2014), Lim Hui Min Cheryl (2014), Ng Woon Chian (2014)"
