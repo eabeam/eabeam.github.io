@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang }}">
 
-  <!-- Head -->
   <head>
   {%- if page.redirect -%}
     <meta http-equiv="refresh" content="3; url={{ site.baseurl }}/" />
@@ -9,27 +8,30 @@
   {% include head.html %}
   </head>
 
-  <!-- Body -->
-  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
-
-    <!-- Header -->
+  <body>
     {%- include header.html %}
 
-    <!-- Content -->
-    <div class="container mt-5">
-      {{ content }}
-    </div>
+    {{ content }}
 
-    <!-- Footer -->
     {%- include footer.html %}
 
-    <!-- JavaScripts -->
-    {% include scripts/jquery.html %}
-    {% include scripts/bootstrap.html %}
-    {% include scripts/masonry.html %}
-    {% include scripts/misc.html %}
+    <!-- jQuery (needed for jekyll-scholar abstract/bibtex toggles) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@{{ site.jquery.version }}/dist/jquery.min.js" integrity="{{ site.jquery.integrity }}" crossorigin="anonymous"></script>
+    <script>
+      // Abstract and bibtex toggle for publications
+      $(document).ready(function() {
+        $('a.abstract').click(function() {
+          $(this).parent().siblings('.abstract.hidden').slideToggle(200);
+          return false;
+        });
+        $('a.bibtex').click(function() {
+          $(this).parent().siblings('.bibtex.hidden').slideToggle(200);
+          return false;
+        });
+      });
+    </script>
+    {% if site.enable_math %}
     {% include scripts/mathjax.html %}
-    {% include scripts/analytics.html %}
-    {% include scripts/progressBar.html %}
+    {% endif %}
   </body>
 </html>
