@@ -141,6 +141,31 @@ nav {
       }
     }
   }
+
+  .hero-projects {
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+  }
+
+  .hero-pill {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: var(--teal);
+    background: var(--teal-bg);
+    border: 1px solid rgba(26, 122, 109, 0.15);
+    padding: 0.4rem 1rem;
+    border-radius: 100px;
+    text-decoration: none;
+    transition: all 0.25s;
+
+    &:hover {
+      border-color: var(--teal);
+      background: white;
+    }
+  }
 }
 
 // === AFFILIATION + GEOGRAPHY STRIP ===
@@ -628,6 +653,7 @@ footer {
 .hero-text-side .eyebrow { animation-delay: 0.1s; }
 .hero-text-side h1 { animation-delay: 0.2s; }
 .hero-text-side .bio { animation-delay: 0.3s; }
+.hero-text-side .hero-projects { animation-delay: 0.4s; }
 
 .r-card,
 .pub-timeline li,
