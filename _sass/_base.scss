@@ -59,6 +59,12 @@ table {
 // Bibliography/publications compatibility
 // These classes are used by jekyll-scholar's bib.html template
 .publications {
+  // jekyll-scholar wraps entries in an <ol> — hide the numbers
+  ol.bibliography {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+  }
   .year {
     font-family: 'Bricolage Grotesque', sans-serif;
     font-size: 1.4rem;
