@@ -2,65 +2,121 @@
 layout: default
 ---
 
-<!-- about.html -->
-      <div class="post">
-        <header class="post-header">
-          <h1 class="post-title">
-           {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
-          </h1>
-          <p class="desc">{{ page.subtitle }}</p>
-        </header>
+<!-- HERO -->
+<header class="hero">
+  <div class="hero-photo-side">
+    <img src="https://images.unsplash.com/photo-1532619675605-1ede6c2ed2b0?w=800&h=600&fit=crop" alt="Field research">
+  </div>
+  <div class="hero-text-side">
+    <p class="eyebrow">Development Economist</p>
+    <h1>{{ site.first_name }} {{ site.last_name }}</h1>
+    <div class="bio">
+      {{ content }}
+    </div>
+  </div>
+</header>
 
-        <article>
-          {% if page.profile -%}
-          <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
-            {%- if page.profile.image %}
-              {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
+<!-- AFFILIATION + GEOGRAPHY STRIP -->
+<div class="strip-bar">
+  <div class="strip-inner">
+    <div class="affil-chips">
+      <a href="https://www.uvm.edu/gund" class="affil-chip">Gund Institute</a>
+      <a href="https://www.iza.org/" class="affil-chip">IZA</a>
+      <a href="https://www.povertyactionlab.org/" class="affil-chip">J-PAL</a>
+    </div>
+    <div class="geo-markers">
+      <span class="geo-tag"><span class="geo-dot ph"></span> Philippines</span>
+      <span class="geo-tag"><span class="geo-dot bd"></span> Bangladesh</span>
+      <span class="geo-tag"><span class="geo-dot mw"></span> Malawi</span>
+      <span class="geo-tag"><span class="geo-dot zw"></span> Zimbabwe</span>
+      <span class="geo-tag"><span class="geo-dot br"></span> Brazil</span>
+      <span class="geo-tag"><span class="geo-dot us"></span> US</span>
+    </div>
+  </div>
+</div>
 
-              {% if page.profile.image_circular %}
-                {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
-              {% else %}
-                {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
-              {% endif %}
+<!-- PUBLICATIONS — rendered via jekyll-scholar -->
+<section id="publications">
+  <div class="section-head">
+    <p class="tag">Published Work</p>
+    <h2>Publications</h2>
+  </div>
+  <div class="publications">
+    {%- for y in page.pub_years %}
+    <h2 class="year">{{ y }}</h2>
+    {% bibliography -f papers -q @*[year={{y}}]* %}
+    {%- endfor %}
+  </div>
+</section>
 
-              {% include figure.html 
-              path=profile_image_path 
-              class=profile_image_class
-              alt=page.profile.image -%}
-            {% endif -%}
-            {%- if page.profile.address %}
-            <div class="address">
-              {{ page.profile.address }}
-            </div>
-            {%- endif %}
-          </div>
-          {%- endif %}
+<!-- PHOTO BREAK -->
+<div class="photo-break">
+  <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1400&h=300&fit=crop&crop=bottom" alt="Research context">
+</div>
 
-          <div class="clearfix">
-            {{ content }}
-          </div>
+<!-- WORKS IN PROGRESS -->
+<section id="research">
+  <div class="section-head">
+    <p class="tag">Current Research</p>
+    <h2>Works in Progress</h2>
+  </div>
+  {% if page.works_in_progress %}
+  <div class="research-mosaic">
+    {%- for project in page.works_in_progress %}
+    <div class="r-card{% if forloop.first %} wide{% endif %}">
+      <span class="badge badge-{{ project.status_class | default: 'ip' }}">{{ project.status }}</span>
+      <h3>{{ project.title }}</h3>
+      <p class="coauthors">{{ project.coauthors }}</p>
+      {% if project.description %}<p class="card-desc">{{ project.description }}</p>{% endif %}
+      <div class="geo-row">
+        {%- for country in project.countries %}
+        <span class="geo-dot {{ country }}"></span>
+        {%- endfor %}
+      </div>
+      <div class="links-row">
+        {%- for link in project.links %}
+        <a href="{{ link.url }}">{{ link.label }}</a>
+        {%- endfor %}
+      </div>
+    </div>
+    {%- endfor %}
+  </div>
+  {% endif %}
+</section>
 
-          {% if page.news -%}
-          <!-- News -->
-          {%- include news.html %}
-          {%- endif %}
-          {% if page.selected_papers -%}
-            <!-- Selected papers -->
-            {%- include selected_papers.html %}
-          {%- endif %}
-          {%- if page.social %}
-          <!-- Social -->
-          <div class="social">
-            <div class="contact-icons">
-            {% include social.html %}
-            </div>
+<!-- TEACHING -->
+<section id="teaching">
+  <div class="section-head">
+    <p class="tag">Teaching</p>
+    <h2>Courses &amp; Resources</h2>
+  </div>
+  <div class="teach-grid">
+    {%- if page.courses %}
+    {%- for course in page.courses %}
+    <div class="teach-item">
+      <p class="code">{{ course.code }}</p>
+      <h3>{{ course.name }}</h3>
+      <div class="sems">
+        {%- for sem in course.semesters %}
+        <a href="{{ sem.url }}">{{ sem.label }}</a>
+        {%- endfor %}
+      </div>
+    </div>
+    {%- endfor %}
+    {%- endif %}
 
-            <div class="contact-note">
-              {{ site.contact_note }}
-            </div>
-            
-          </div>
-          {%- endif %}
-        </article>
+    <div class="teach-feature">
+      <div class="feat-text">
+        <h3>Thinking with Agents</h3>
+        <p>An open resource on AI tools, critical thinking, and practical skills for economics students and researchers.</p>
+      </div>
+      <a href="https://thinkingwithagents.github.io" class="feat-btn">Explore &rarr;</a>
+    </div>
+  </div>
+</section>
 
+<!-- CV -->
+<div class="cv-section" id="cv">
+  <h2>Curriculum Vitae</h2>
+  <a href="{{ '/assets/pdf/beam_cv.pdf' | relative_url }}">Download CV (PDF)</a>
 </div>
