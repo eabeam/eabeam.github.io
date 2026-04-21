@@ -78,7 +78,9 @@ table {
   }
 
   .col-sm-2 {
-    flex: 0 0 60px;
+    flex: 0 0 auto;
+    // Hide citation numbers — only show if there's a badge or preview
+    &:not(.abbr):not(.preview) { display: none; }
     &.abbr .badge {
       font-family: 'Bricolage Grotesque', sans-serif;
       font-size: 0.65rem;

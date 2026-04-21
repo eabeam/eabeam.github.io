@@ -8,12 +8,10 @@
       </button>
 
       <ul class="nav-links">
-        {%- assign sorted_pages = site.pages | sort: "nav_order" -%}
-        {%- for p in sorted_pages -%}
-          {%- if p.nav and p.autogen == nil -%}
-        <li><a href="{{ p.url | relative_url }}"{% if page.url == p.url %} class="active"{% endif %}>{{ p.title }}</a></li>
-          {%- endif -%}
-        {%- endfor -%}
+        <li><a href="{{ '/' | relative_url }}#publications">Publications</a></li>
+        <li><a href="{{ '/' | relative_url }}#research">Works in Progress</a></li>
+        <li><a href="{{ '/' | relative_url }}#teaching">Teaching</a></li>
+        <li><a href="{{ '/' | relative_url }}#cv">CV</a></li>
         <li><a href="https://thinkingwithagents.github.io" class="nav-btn">Thinking with Agents</a></li>
       </ul>
     </div>

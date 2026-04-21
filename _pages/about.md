@@ -7,8 +7,8 @@ subtitle: Associate Professor of Economics, <a href='http://www.uvm.edu'>Univers
 # Publications years (for jekyll-scholar on homepage)
 pub_years: [2026, 2023, 2021, 2020, 2016]
 
-# Works in progress (structured data for mosaic cards)
-works_in_progress:
+# Working papers (have drafts available)
+working_papers:
   - title: "Lowering Barriers to Remote Education: Experimental Impacts on Parental Responses and Learning"
     coauthors: "with Priya Mukherjee & Laia Navarro-Sola"
     description: "How reducing barriers to remote education technologies affects parental engagement and student learning in developing contexts."
@@ -21,6 +21,8 @@ works_in_progress:
       - label: "IZA Discussion Paper"
         url: "https://docs.iza.org/dp15596.pdf"
 
+# Works in progress (structured data for mosaic cards)
+works_in_progress:
   - title: "Improving Childcare Quality through Social Franchising"
     coauthors: "with Anne Fitzpatrick & Emy Reimao"
     status: "Cond. Accepted · JDE"
@@ -95,4 +97,4 @@ courses:
         url: "https://eabeam.github.io/EC140.F21/"
 ---
 
-Associate Professor of Economics at the <a href="https://www.uvm.edu/cas/economics">University of Vermont</a>. I design and run **randomized impact evaluations** with governments and NGOs — building evidence on what works in employment, education, and social inclusion across six countries.
+Associate Professor of Economics at the <a href="https://www.uvm.edu/cas/economics">University of Vermont</a>, affiliate of the <a href="https://www.uvm.edu/gund">Gund Institute</a>, research fellow at <a href="https://www.iza.org/">IZA</a>, and invited researcher at <a href="https://www.povertyactionlab.org/">J-PAL</a>. I design and run **randomized impact evaluations** with governments and NGOs — building evidence on what works in employment, education, and social inclusion across six countries.

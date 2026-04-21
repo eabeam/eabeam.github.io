@@ -8,7 +8,6 @@ layout: default
     <img src="https://images.unsplash.com/photo-1532619675605-1ede6c2ed2b0?w=800&h=600&fit=crop" alt="Field research">
   </div>
   <div class="hero-text-side">
-    <p class="eyebrow">Development Economist</p>
     <h1>{{ site.first_name }} {{ site.last_name }}</h1>
     <div class="bio">
       {{ content }}
@@ -54,16 +53,43 @@ layout: default
   <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1400&h=300&fit=crop&crop=bottom" alt="Research context">
 </div>
 
-<!-- WORKS IN PROGRESS -->
+<!-- WORKING PAPERS & WORKS IN PROGRESS -->
 <section id="research">
+  {% if page.working_papers %}
   <div class="section-head">
     <p class="tag">Current Research</p>
+    <h2>Working Papers</h2>
+  </div>
+  <div class="research-mosaic">
+    {%- for project in page.working_papers %}
+    <div class="r-card wide">
+      <span class="badge badge-{{ project.status_class | default: 'wp' }}">{{ project.status }}</span>
+      <h3>{{ project.title }}</h3>
+      <p class="coauthors">{{ project.coauthors }}</p>
+      {% if project.description %}<p class="card-desc">{{ project.description }}</p>{% endif %}
+      <div class="geo-row">
+        {%- for country in project.countries %}
+        <span class="geo-dot {{ country }}"></span>
+        {%- endfor %}
+      </div>
+      <div class="links-row">
+        {%- for link in project.links %}
+        <a href="{{ link.url }}">{{ link.label }}</a>
+        {%- endfor %}
+      </div>
+    </div>
+    {%- endfor %}
+  </div>
+  {% endif %}
+
+  {% if page.works_in_progress %}
+  <div class="section-head" style="margin-top: 3rem;">
+    <p class="tag">Ongoing</p>
     <h2>Works in Progress</h2>
   </div>
-  {% if page.works_in_progress %}
   <div class="research-mosaic">
     {%- for project in page.works_in_progress %}
-    <div class="r-card{% if forloop.first %} wide{% endif %}">
+    <div class="r-card">
       <span class="badge badge-{{ project.status_class | default: 'ip' }}">{{ project.status }}</span>
       <h3>{{ project.title }}</h3>
       <p class="coauthors">{{ project.coauthors }}</p>
@@ -96,9 +122,10 @@ layout: default
     <div class="teach-item">
       <p class="code">{{ course.code }}</p>
       <h3>{{ course.name }}</h3>
+      <p class="course-sites-label">Course websites:</p>
       <div class="sems">
         {%- for sem in course.semesters %}
-        <a href="{{ sem.url }}">{{ sem.label }}</a>
+        <a href="{{ sem.url }}">{{ sem.label }} &rarr;</a>
         {%- endfor %}
       </div>
     </div>
