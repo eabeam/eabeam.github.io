@@ -25,9 +25,9 @@ nav {
 }
 
 .site-name {
-  font-family: 'Bricolage Grotesque', sans-serif;
-  font-weight: 700;
-  font-size: 1.1rem;
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  font-size: 1.15rem;
   color: var(--ink);
   text-decoration: none;
   letter-spacing: -0.02em;
@@ -116,11 +116,22 @@ nav {
   }
 
   h1 {
+    // FONT TEST: swap between these two
+    font-family: 'Playfair Display', serif;
+    font-size: 3.2rem;
+    font-weight: 400;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    margin-bottom: 0.75rem;
+  }
+
+  .hero-title {
     font-family: 'Bricolage Grotesque', sans-serif;
-    font-size: 2.8rem;
-    font-weight: 700;
-    line-height: 1.12;
-    letter-spacing: -0.03em;
+    font-size: 0.82rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
     margin-bottom: 1.5rem;
   }
 
@@ -139,6 +150,24 @@ nav {
       &:hover {
         text-decoration-color: var(--teal);
       }
+    }
+  }
+
+  .hero-affiliations {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 0.78rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+
+    a {
+      color: var(--ink-faint);
+      text-decoration: none;
+      transition: color 0.25s;
+      &:hover { color: var(--teal); }
     }
   }
 

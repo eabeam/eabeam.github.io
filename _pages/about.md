@@ -97,4 +97,4 @@ courses:
         url: "https://eabeam.github.io/EC140.F21/"
 ---
 
-Associate Professor of Economics at the <a href="https://www.uvm.edu/cas/economics">University of Vermont</a>, affiliate of the <a href="https://www.uvm.edu/gund">Gund Institute</a>, research fellow at <a href="https://www.iza.org/">IZA</a>, and invited researcher at <a href="https://www.povertyactionlab.org/">J-PAL</a>. I design and run **randomized impact evaluations** with governments and NGOs — building evidence on what works in employment, education, and social inclusion across six countries.
+I'm a development economist specializing in **randomized impact evaluations** in partnership with governments and NGOs. My work builds evidence on what works in employment, education, and social inclusion across six countries.
