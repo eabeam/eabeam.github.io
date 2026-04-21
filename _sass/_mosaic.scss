@@ -145,8 +145,9 @@ nav {
   .hero-projects {
     margin-top: 1.5rem;
     display: flex;
-    gap: 0.6rem;
-    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-start;
   }
 
   .hero-pill {
