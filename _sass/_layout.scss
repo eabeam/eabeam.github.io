@@ -1,50 +1,47 @@
-/******************************************************************************
- * Content
+/*******************************************************************************
+ * Global Mosaic Theme — Layout
  ******************************************************************************/
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
 
 body {
-  padding-bottom: 70px;
-  color: var(--global-text-color);
-  background-color: var(--global-bg-color);
+  font-family: 'Lora', Georgia, serif;
+  background: var(--bg);
+  color: var(--ink);
+  line-height: 1.7;
+  font-size: 17px;
+  -webkit-font-smoothing: antialiased;
+}
 
-  h1, h2, h3, h4, h5, h6 {
-    scroll-margin-top: 66px;
+// Content containers
+.container-wide {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+section {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 4.5rem 2.5rem;
+}
+
+// Inner page wrapper
+.page-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 6rem 2.5rem 4rem;
+}
+
+// Responsive
+@media (max-width: 768px) {
+  .container-wide,
+  section,
+  .page-content {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 }
-
-body.fixed-top-nav {
-  // Add some padding for the nav-bar.
-  padding-top: 56px;
-}
-
-body.sticky-bottom-footer {
-  // Remove padding below footer.
-  padding-bottom: 0;
-}
-
-.container {
-  max-width: $max-content-width;
-}
-
-// Profile
-.profile {
-  img {
-    width: 100%;
-  }
-}
-
-// TODO: redefine content layout.
-
-
-/******************************************************************************
- * Publications
- ******************************************************************************/
-
-// TODO: redefine publications layout.
-
-
-/*****************************************************************************
-* Projects
-*****************************************************************************/
-
-// TODO: redefine projects layout.
