@@ -116,33 +116,32 @@ layout: default
 <!-- TEACHING -->
 <section id="teaching">
   <div class="section-head">
-    <h2>Courses &amp; Resources</h2>
+    <h2>Teaching</h2>
   </div>
-  <div class="teach-grid">
+  <ul class="teach-list">
     {%- if page.courses %}
     {%- for course in page.courses %}
-    <div class="teach-item">
-      <p class="code">{{ course.code }}</p>
-      <h3>{{ course.name }}</h3>
+    <li class="teach-row">
+      <span class="teach-code">{{ course.code }}</span>
+      <span class="teach-name">{{ course.name }}</span>
       {%- assign linked_sems = course.semesters | where_exp: "sem", "sem.url != ''" %}
       {%- if linked_sems.size > 0 %}
-      <div class="sems">
+      <span class="teach-links">
         {%- for sem in linked_sems %}
-        <a href="{{ sem.url }}">{{ sem.label }} &rarr;</a>
+        <a href="{{ sem.url }}" class="sem-pill">{{ sem.label }}</a>
         {%- endfor %}
-      </div>
+      </span>
       {%- endif %}
-    </div>
+    </li>
     {%- endfor %}
     {%- endif %}
-
-    <div class="teach-feature">
-      <div class="feat-text">
-        <h3>Thinking with Agents</h3>
-        <p>An open resource on AI tools, critical thinking, and practical skills for economics students and researchers.</p>
-      </div>
-      <a href="https://thinkingwithagents.github.io" class="feat-btn">Explore &rarr;</a>
+  </ul>
+  <div class="teach-feature">
+    <div class="feat-text">
+      <h3>Thinking with Agents</h3>
+      <p>An open resource on AI tools, critical thinking, and practical skills for economics students and researchers.</p>
     </div>
+    <a href="https://thinkingwithagents.github.io" class="feat-btn">Explore &rarr;</a>
   </div>
 </section>
 

@@ -58,28 +58,13 @@ works_in_progress:
       - label: "Registry"
         url: "https://www.socialscienceregistry.org/trials/13199"
 
-  - title: "Supporting Early Education to Increase Higher Education Enrollment in the Philippines"
-    coauthors: "with Noam Angrist, Dean Karlan, Rene Marlon Panti & Christopher Udry"
-    status: "In Progress"
-    status_class: "ip"
-    countries: [ph]
-    links:
-      - label: "IPA Project"
-        url: "https://poverty-action.org/supporting-early-education-increase-higher-education-enrollment-philippines"
-
-  - title: "Bridging the Soft Skills Gap Through Technology"
-    coauthors: "with Ricardo Dahis, Ursula Mello & Laia Navarro-Sola"
-    status: "In Progress"
-    status_class: "ip"
-    countries: [br]
-    links: []
 
 # Courses (structured data for teaching grid)
 courses:
   - code: "ECON 3500"
-    name: "Applied Econometrics"
+    name: "Econometrics & Applications"
     semesters:
-      - label: "S26"
+      - label: "econ3500.s26"
         url: "https://econ3500s26.netlify.app"
   - code: "ECON 1450"
     name: "Principles of Microeconomics"
