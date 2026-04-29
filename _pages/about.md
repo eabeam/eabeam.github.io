@@ -27,7 +27,7 @@ works_in_progress:
     coauthors: "with Anne Fitzpatrick & Emy Reimao"
     status: "Cond. Accepted · JDE"
     status_class: "ca"
-    countries: [mw]
+    countries: [ke]
     links:
       - label: "Pre-Results"
         url: "https://afosterri.org/jdepreresults/wp-content/uploads/2025/06/fitzpatrick-beam-reimao-childcare-quality-social-francising-DEVE-eb7f41ac1dc5c16cb897ce8cad6fdeb0.pdf"

@@ -32,6 +32,7 @@ layout: default
     <div class="geo-markers">
       <span class="geo-tag"><span class="geo-dot ph"></span> Philippines</span>
       <span class="geo-tag"><span class="geo-dot bd"></span> Bangladesh</span>
+      <span class="geo-tag"><span class="geo-dot ke"></span> Kenya</span>
       <span class="geo-tag"><span class="geo-dot mw"></span> Malawi</span>
       <span class="geo-tag"><span class="geo-dot zw"></span> Zimbabwe</span>
       <span class="geo-tag"><span class="geo-dot br"></span> Brazil</span>
@@ -47,7 +48,7 @@ layout: default
   </div>
   <div class="publications">
     {%- for y in page.pub_years %}
-    <h2 class="year">{{ y }}</h2>
+    <h3 class="year">{{ y }}</h3>
     {% bibliography -f papers -q @*[year={{y}}]* %}
     {%- endfor %}
   </div>
