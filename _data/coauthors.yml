@@ -22,7 +22,7 @@
 
 "Watson":
   - firstname: ["Tara"]
-    url: https://tararwatson.com/
+    url: https://www.brookings.edu/people/tara-watson/
 
 "Shrestha":
   - firstname: ["Slesh", "Slesh A."]
@@ -42,7 +42,7 @@
 
 "Dercon":
   - firstname: ["Stefan"]
-    url: https://www.sbs.ox.ac.uk/people/stefan-dercon
+    url: https://www.bsg.ox.ac.uk/people/stefan-dercon
 
 "Karlan":
   - firstname: ["Dean"]
@@ -58,7 +58,7 @@
 
 "Udry":
   - firstname: ["Christopher"]
-    url: https://www.sbs.ox.ac.uk/people/chris-udry
+    url: https://sites.northwestern.edu/udry/
 
 "Das":
   - firstname: ["Narayan"]
@@ -70,7 +70,6 @@
 
 "Haque":
   - firstname: ["Rozina"]
-    url: https://poverty-action.org/people/rozina-haque
 
 "Khan":
   - firstname: ["Maliha Noshin"]
