@@ -77,24 +77,21 @@ works_in_progress:
 # Courses (structured data for teaching grid)
 courses:
   - code: "ECON 3500"
-    name: "Econometrics & Applications"
+    name: "Applied Econometrics"
     semesters:
-      - label: "F22"
-        url: "https://ec200s22.netlify.app/"
-      - label: "F21"
-        url: "https://ec200f21.netlify.app/"
-      - label: "F20"
-        url: "https://ec200f20.netlify.app/"
+      - label: "S26"
+        url: "https://econ3500s26.netlify.app"
   - code: "ECON 1450"
-    name: "Using Data for Economic Policy"
+    name: "Principles of Microeconomics"
     semesters:
-      - label: "S21"
-        url: "https://eabeam.github.io/EC137.S21/"
+      - label: "Su26"
+        url: ""
   - code: "ECON 2400"
     name: "Economic Development"
-    semesters:
-      - label: "F21"
-        url: "https://eabeam.github.io/EC140.F21/"
+    semesters: []
+  - code: "HCOL 2000"
+    name: "Economics of Discrimination"
+    semesters: []
 ---
 
 I'm a development economist specializing in **randomized impact evaluations** in partnership with governments and NGOs. My work builds evidence on what works in employment, education, and social inclusion across six countries.

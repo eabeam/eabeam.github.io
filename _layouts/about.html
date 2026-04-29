@@ -124,12 +124,14 @@ layout: default
     <div class="teach-item">
       <p class="code">{{ course.code }}</p>
       <h3>{{ course.name }}</h3>
-      <p class="course-sites-label">Course websites:</p>
+      {%- assign linked_sems = course.semesters | where_exp: "sem", "sem.url != ''" %}
+      {%- if linked_sems.size > 0 %}
       <div class="sems">
-        {%- for sem in course.semesters %}
+        {%- for sem in linked_sems %}
         <a href="{{ sem.url }}">{{ sem.label }} &rarr;</a>
         {%- endfor %}
       </div>
+      {%- endif %}
     </div>
     {%- endfor %}
     {%- endif %}
