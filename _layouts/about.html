@@ -2,65 +2,140 @@
 layout: default
 ---
 
-<!-- about.html -->
-      <div class="post">
-        <header class="post-header">
-          <h1 class="post-title">
-           {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
-          </h1>
-          <p class="desc">{{ page.subtitle }}</p>
-        </header>
+<!-- HERO -->
+<header class="hero">
+  <div class="hero-photo-side hero-headshot">
+    <img src="{{ '/assets/img/beam_pic_21.jpg' | relative_url }}" alt="Emily Beam">
+  </div>
+  <div class="hero-text-side">
+    <h1>{{ site.first_name }} {{ site.last_name }}</h1>
+    <p class="hero-title">Associate Professor of Economics &middot; University of Vermont</p>
+    <div class="bio">
+      {{ content }}
+    </div>
+    <p class="hero-affiliations"><a href="https://www.uvm.edu/gund">Gund Institute</a> &middot; <a href="https://www.iza.org/">IZA</a> &middot; <a href="https://www.povertyactionlab.org/">J-PAL</a></p>
+    <div class="hero-projects">
+      <a href="https://quick-twi.netlify.app/" class="hero-pill">QuICK Project &mdash; Childcare Quality in Kenya &rarr;</a>
+      <a href="https://thinkingwithagents.github.io" class="hero-pill">Thinking with Agents &rarr;</a>
+    </div>
+  </div>
+</header>
 
-        <article>
-          {% if page.profile -%}
-          <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
-            {%- if page.profile.image %}
-              {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
+<!-- PUBLICATIONS — rendered via jekyll-scholar -->
+<section id="publications">
+  <div class="section-head">
+    <h2>Publications</h2>
+  </div>
+  <div class="publications">
+    {%- for y in page.pub_years %}
+    <h3 class="year">{{ y }}</h3>
+    {% bibliography -f papers -q @*[year={{y}}]* %}
+    {%- endfor %}
+  </div>
+</section>
 
-              {% if page.profile.image_circular %}
-                {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
-              {% else %}
-                {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
-              {% endif %}
+<!-- PHOTO BREAK -->
+<div class="photo-break photo-break-mosaic">
+  <img src="{{ '/assets/img/hero/kenya-enumerators.jpg' | relative_url }}" alt="Enumerators in a Kidogo classroom" style="object-position: center 65%;">
+  <img src="{{ '/assets/img/hero/bangladesh-reading.jpg' | relative_url }}" alt="Participant reading research materials in Bangladesh" style="object-position: 50% 50%;">
+  <img src="{{ '/assets/img/hero/loom.jpg' | relative_url }}" alt="Weaving loom with colorful threads" style="object-position: 50% 50%;">
+</div>
 
-              {% include figure.html 
-              path=profile_image_path 
-              class=profile_image_class
-              alt=page.profile.image -%}
-            {% endif -%}
-            {%- if page.profile.address %}
-            <div class="address">
-              {{ page.profile.address }}
-            </div>
-            {%- endif %}
-          </div>
-          {%- endif %}
+<!-- WORKING PAPERS & WORKS IN PROGRESS -->
+<section id="research">
+  {% if page.working_papers %}
+  <div class="section-head">
+    <h2>Working Papers</h2>
+  </div>
+  <div class="research-mosaic">
+    {%- for project in page.working_papers %}
+    <div class="r-card wide">
+      <span class="badge badge-{{ project.status_class | default: 'wp' }}">{{ project.status }}</span>
+      <h3>{{ project.title }}</h3>
+      <p class="coauthors">{{ project.coauthors }}</p>
+      {% if project.description %}<p class="card-desc">{{ project.description }}</p>{% endif %}
+      <div class="geo-row">
+        {%- for country in project.countries %}
+        <span class="geo-dot {{ country }}"></span>
+        {%- endfor %}
+      </div>
+      <div class="links-row">
+        {%- for link in project.links %}
+        <a href="{{ link.url }}">{{ link.label }}</a>
+        {%- endfor %}
+      </div>
+    </div>
+    {%- endfor %}
+  </div>
+  {% endif %}
 
-          <div class="clearfix">
-            {{ content }}
-          </div>
+  {% if page.works_in_progress %}
+  <div class="section-head" style="margin-top: 3rem;">
+    <h2>Works in Progress</h2>
+  </div>
+  <div class="research-mosaic">
+    {%- for project in page.works_in_progress %}
+    <div class="r-card">
+      <span class="badge badge-{{ project.status_class | default: 'ip' }}">{{ project.status }}</span>
+      <h3>{{ project.title }}</h3>
+      <p class="coauthors">{{ project.coauthors }}</p>
+      {% if project.description %}<p class="card-desc">{{ project.description }}</p>{% endif %}
+      <div class="geo-row">
+        {%- for country in project.countries %}
+        <span class="geo-dot {{ country }}"></span>
+        {%- endfor %}
+      </div>
+      <div class="links-row">
+        {%- for link in project.links %}
+        <a href="{{ link.url }}">{{ link.label }}</a>
+        {%- endfor %}
+      </div>
+    </div>
+    {%- endfor %}
+  </div>
+  {% endif %}
+</section>
 
-          {% if page.news -%}
-          <!-- News -->
-          {%- include news.html %}
-          {%- endif %}
-          {% if page.selected_papers -%}
-            <!-- Selected papers -->
-            {%- include selected_papers.html %}
-          {%- endif %}
-          {%- if page.social %}
-          <!-- Social -->
-          <div class="social">
-            <div class="contact-icons">
-            {% include social.html %}
-            </div>
+<!-- PHOTO BREAK 2 -->
+<div class="photo-break photo-break-duo">
+  <img src="{{ '/assets/img/hero/kenya-daycare.jpg' | relative_url }}" alt="Daycare center in Kenya">
+  <img src="{{ '/assets/img/hero/philippines-truck.jpg' | relative_url }}" alt="Water buffalo and truck in the Philippines">
+</div>
 
-            <div class="contact-note">
-              {{ site.contact_note }}
-            </div>
-            
-          </div>
-          {%- endif %}
-        </article>
+<!-- TEACHING -->
+<section id="teaching">
+  <div class="section-head">
+    <h2>Teaching</h2>
+  </div>
+  <ul class="teach-list">
+    {%- if page.courses %}
+    {%- for course in page.courses %}
+    <li class="teach-row">
+      <span class="teach-code">{{ course.code }}</span>
+      <span class="teach-name">{{ course.name }}</span>
+      {%- assign linked_sems = course.semesters | where_exp: "sem", "sem.url != ''" %}
+      {%- if linked_sems.size > 0 %}
+      <span class="teach-links">
+        {%- for sem in linked_sems %}
+        <a href="{{ sem.url }}" class="sem-pill">{{ sem.label }}</a>
+        {%- endfor %}
+      </span>
+      {%- endif %}
+    </li>
+    {%- endfor %}
+    {%- endif %}
+  </ul>
+  <div class="teach-feature">
+    <div class="feat-text">
+      <h3>Thinking with Agents</h3>
+      <p>An open resource on AI tools, critical thinking, and practical skills for economics students and researchers.</p>
+    </div>
+    <a href="https://thinkingwithagents.github.io" class="feat-btn">Explore &rarr;</a>
+  </div>
+</section>
 
+<!-- CV -->
+<div class="cv-section" id="cv">
+  <h2>Curriculum Vitae</h2>
+  <a href="{{ '/assets/pdf/beam_cv.pdf' | relative_url }}">Download CV (PDF)</a>
 </div>

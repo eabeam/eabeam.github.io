@@ -1,0 +1,61 @@
+<h2>Website Redesign — Where We Are</h2>
+<p class="subtitle">Global Mosaic redesign on branch <code>redesign/global-mosaic</code> — what's done and what's next</p>
+
+<div class="section">
+  <h3>✅ Completed</h3>
+  <ul>
+    <li>Full SCSS overhaul — new palette, Playfair Display + Lora typography, light-only theme</li>
+    <li>Hero section — split photo/text layout with affiliations, title, project pills</li>
+    <li>Affiliation + geography strip (Gund, IZA, J-PAL + country dots)</li>
+    <li>Publications section — BibTeX rendering with year grouping</li>
+    <li>Working Papers + Works in Progress as mosaic cards</li>
+    <li>Teaching grid with Thinking with Agents callout</li>
+    <li>Inner pages (publications, teaching, cv, working) — new layout wrapper</li>
+    <li>Nav + footer rewritten (no Bootstrap)</li>
+    <li>Responsive mobile layout</li>
+  </ul>
+</div>
+
+<div class="section">
+  <h3>🔲 Still Open</h3>
+  <ul>
+    <li><strong>Photos:</strong> Hero and photo-break are Unsplash placeholders — need real or chosen images</li>
+    <li><strong>Merge:</strong> Branch is clean but hasn't been pushed/merged to main</li>
+    <li><strong>Content:</strong> Any remaining copy, links, or section tweaks</li>
+  </ul>
+</div>
+
+<div class="section">
+  <h3>What do you want to focus on?</h3>
+</div>
+
+<div class="options">
+  <div class="option" data-choice="photos" onclick="toggleSelect(this)">
+    <div class="letter">A</div>
+    <div class="content">
+      <h3>Photos</h3>
+      <p>Pick a real hero image and photo-break from your field research (or choose from Unsplash alternatives)</p>
+    </div>
+  </div>
+  <div class="option" data-choice="content" onclick="toggleSelect(this)">
+    <div class="letter">B</div>
+    <div class="content">
+      <h3>Content / Copy</h3>
+      <p>Review and refine the bio, section text, links, or any section that needs updating</p>
+    </div>
+  </div>
+  <div class="option" data-choice="polish" onclick="toggleSelect(this)">
+    <div class="letter">C</div>
+    <div class="content">
+      <h3>Visual Polish</h3>
+      <p>Review the live local preview for anything that looks off — spacing, colors, cards, fonts</p>
+    </div>
+  </div>
+  <div class="option" data-choice="merge" onclick="toggleSelect(this)">
+    <div class="letter">D</div>
+    <div class="content">
+      <h3>Merge &amp; Launch</h3>
+      <p>It's good enough — push the branch and go live</p>
+    </div>
+  </div>
+</div>

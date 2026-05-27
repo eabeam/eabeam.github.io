@@ -1,32 +1,31 @@
 ---
 layout: default
 ---
-<!-- _layouts/cv.html - Traditional Resume Style -->
-        <div class="post">
 
-          <header class="post-header" style="display: flex; justify-content: space-between; align-items: center;">
-            <h1 class="post-title" style="margin: 0;">{{ page.title }}</h1>
-            {% if page.cv_pdf %}<a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer" style="font-size: 0.9em; white-space: nowrap;"><i class="fas fa-file-pdf"></i> PDF</a>{% endif %}
-          </header>
+<div class="page-content">
+  <div class="page-header cv-header">
+    <h1>{{ page.title }}</h1>
+    {% if page.cv_pdf %}
+    <a class="cv-pdf-link" href="{{ page.cv_pdf | prepend: '/assets/pdf/' | relative_url }}" target="_blank" rel="noopener noreferrer">Download PDF</a>
+    {% endif %}
+  </div>
 
-          <article class="cv-content" style="max-width: 900px;">
-            {% for entry in site.data.cv %}
-              <section class="cv-section" style="margin-bottom: 2em;">
-                <h2 style="font-size: 1.3em; font-weight: bold; border-bottom: 1px solid #ccc; padding-bottom: 0.5em; margin-bottom: 1em;">{{ entry.title }}</h2>
-
-                {% if entry.type == "list" %}
-                  {% include cv/list.html %}
-                {% elsif entry.type == "map" %}
-                  {% include cv/map.html %}
-                {% elsif entry.type == "nested_list" %}
-                  {% include cv/nested_list.html %}
-                {% elsif entry.type == "time_table" %}
-                  {% include cv/time_table.html %}
-                {% else %}
-                  {{ entry.contents }}
-                {% endif %}
-              </section>
-            {% endfor %}
-          </article>
-
-        </div>
+  <div class="page-body cv-content">
+    {% for entry in site.data.cv %}
+    <section class="cv-block" id="{{ entry.title | slugify }}">
+      <h2>{{ entry.title }}</h2>
+      {% if entry.type == "list" %}
+        {% include cv/list.html %}
+      {% elsif entry.type == "map" %}
+        {% include cv/map.html %}
+      {% elsif entry.type == "nested_list" %}
+        {% include cv/nested_list.html %}
+      {% elsif entry.type == "time_table" %}
+        {% include cv/time_table.html %}
+      {% else %}
+        {{ entry.contents }}
+      {% endif %}
+    </section>
+    {% endfor %}
+  </div>
+</div>

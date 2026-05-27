@@ -3,27 +3,80 @@ layout: about
 title: about
 permalink: /
 subtitle: Associate Professor of Economics, <a href='http://www.uvm.edu'>University of Vermont</a>
-profile:
-  align: right
-  image: beam_pic_21.jpg
-  image_circular: false # crops the image to make it circular
-  #address: >
- #   <p>233 Old Mill</p>
- #   <p>94 University Place</p>
-  #  <p>Burlington, VT 05405</p>
 
-news: false  # includes a list of news items
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false  # includes social icons at the bottom of the page
+# Publications years (for jekyll-scholar on homepage)
+pub_years: [2026, 2023, 2021, 2020, 2016]
+
+# Working papers (have drafts available)
+working_papers:
+  - title: "Lowering Barriers to Remote Education: Experimental Impacts on Parental Responses and Learning"
+    coauthors: "with Priya Mukherjee & Laia Navarro-Sola"
+    description: "How reducing barriers to remote education technologies affects parental engagement and student learning in developing contexts."
+    status: "Working Paper"
+    status_class: "wp"
+    countries: [bd]
+    links:
+      - label: "Paper (PDF)"
+        url: "/assets/pdf/BeamMukherjeeNavarro-Sola_2025_WP_RemoteEd.pdf"
+      - label: "IZA Discussion Paper"
+        url: "https://docs.iza.org/dp15596.pdf"
+
+# Works in progress (structured data for mosaic cards)
+works_in_progress:
+  - title: "Improving Childcare Quality through Social Franchising"
+    coauthors: "with Anne Fitzpatrick & Emy Reimao"
+    status: "Cond. Accepted · JDE"
+    status_class: "ca"
+    countries: [ke]
+    links:
+      - label: "Pre-Results"
+        url: "https://afosterri.org/jdepreresults/wp-content/uploads/2025/06/fitzpatrick-beam-reimao-childcare-quality-social-francising-DEVE-eb7f41ac1dc5c16cb897ce8cad6fdeb0.pdf"
+      - label: "Registry"
+        url: "https://www.socialscienceregistry.org/trials/11747"
+      - label: "Policy Brief"
+        url: "https://g2lm-lic.iza.org/wp-content/uploads/2025/12/GLMLIC-Policy-Brief_082.pdf"
+      - label: "QuICK Project"
+        url: "https://quick-twi.netlify.app/"
+
+  - title: "Gender Norms at Work: Impacts on Women's Hiring and Workplace Experiences in Bangladesh"
+    coauthors: "with Joshua Merfeld & Naveen Wickremeratne"
+    status: "Cond. Accepted · JDE"
+    status_class: "ca"
+    countries: [bd]
+    links:
+      - label: "Pre-Results"
+        url: "https://afosterri.org/jdepreresults/wp-content/uploads/2025/06/beam-merfeld-wickremeratne-improving-gender-norms-in-the-workpla-fae81fdd6c5501c2ce989054fa0522ab.pdf"
+      - label: "Registry"
+        url: "https://www.socialscienceregistry.org/trials/13473"
+
+  - title: "Hiring Discrimination Against Transgender Job Applicants in the US Labor Market"
+    coauthors: "with Ivy Stanton"
+    status: "In Progress"
+    status_class: "ip"
+    countries: [us]
+    links:
+      - label: "Registry"
+        url: "https://www.socialscienceregistry.org/trials/13199"
+
+
+# Courses (structured data for teaching grid)
+courses:
+  - code: "ECON 3500"
+    name: "Econometrics & Applications"
+    semesters:
+      - label: "econ3500.s26"
+        url: "https://econ3500s26.netlify.app"
+  - code: "ECON 1450"
+    name: "Principles of Microeconomics"
+    semesters:
+      - label: "Su26"
+        url: ""
+  - code: "ECON 2400"
+    name: "Economic Development"
+    semesters: []
+  - code: "HCOL 2000"
+    name: "Economics of Discrimination"
+    semesters: []
 ---
 
-**[Download CV (PDF)](../assets/pdf/beam_cv.pdf)**
-
-
-I am an Associate Professor of Economics at the [University of Vermont](https://www.uvm.edu/cas/economics). I am also an affiliate of the [Gund Institute](https://www.uvm.edu/gund), a research fellow at the [Institute of Labor Economics (IZA)](https://www.iza.org/), and an invited researcher at the [Abdul Latif Jameel Poverty Action Lab (J-PAL)](https://www.povertyactionlab.org/). 
-
-As a development economist, my work focuses on employment, education, and social inclusion. My research explores practical solutions to challenges facing disadvantaged communities worldwide. I specialize in conducting randomized impact evaluations in partnership with governments and NGOs. These evaluations aim to identify, improve, and scale effective interventions to enhance learning outcomes, facilitate employment, and help households build better futures.
-
-My ongoing projects investigate social protection and graduation programs for ultra-poor households, childcare access and quality, labor market discrimination, and remote education technologies. My research spans multiple countries, including the Philippines, Bangladesh, Malawi, Zimbabwe, Brazil, and the United States.
-
-Before joining the University of Vermont, I was a Visiting Assistant Professor at the National University of Singapore. I earned my Ph.D. in Economics and Public Policy from the University of Michigan in 2013, where I also completed a B.S. in Economics, Mathematics, and Spanish.
+I'm a development economist specializing in **randomized impact evaluations** in partnership with governments and NGOs. My work builds evidence on what works in employment, education, and social inclusion across six countries.

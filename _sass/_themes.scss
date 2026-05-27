@@ -1,65 +1,37 @@
 /*******************************************************************************
- * Themes
+ * Global Mosaic Theme — Light mode only
  ******************************************************************************/
- 
+
 :root {
-  --global-bg-color: #{$white-color};
+  --bg: #{$bg};
+  --white: #{$white};
+  --ink: #{$ink};
+  --ink-soft: #{$ink-soft};
+  --ink-faint: #{$ink-faint};
+  --teal: #{$teal};
+  --teal-bg: #{$teal-bg};
+  --terracotta: #{$terracotta};
+  --terracotta-bg: #{$terracotta-bg};
+  --ochre: #{$ochre};
+  --ochre-bg: #{$ochre-bg};
+  --indigo: #{$indigo};
+  --indigo-bg: #{$indigo-bg};
+  --sage: #{$sage};
+  --rose: #{$rose};
+  --rule: #{$rule};
+  --rule-light: #{$rule-light};
+
+  // Legacy mappings for bib.html and other al-folio templates that use these
+  --global-bg-color: #{$bg};
   --global-code-bg-color: #{$code-bg-color-light};
-  --global-text-color: #{$black-color};
-  --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$purple-color};
-  --global-hover-color: #{$purple-color};
-  --global-footer-bg-color: #{$grey-color-dark};
-  --global-footer-text-color: #{$grey-color-light};
-  --global-footer-link-color: #{$white-color};
-  --global-distill-app-color: #{$grey-color};
-  --global-divider-color: rgba(0,0,0,.1);
-  --global-card-bg-color: #{$white-color};
-
-  .fa-sun {
-    display : none;
-  }
-  .fa-moon {
-    padding-left: 10px;
-    padding-top: 12px;
-    display : block;
-  }
-
-  .repo-img-light {
-    display: block;
-  }
-  .repo-img-dark {
-    display: none;
-  }
-}
-
-html[data-theme='dark'] {
-  --global-bg-color: #{$grey-color-dark};
-  --global-code-bg-color: #{$code-bg-color-dark};
-  --global-text-color: #{$grey-color-light};
-  --global-text-color-light: #{$grey-color-light};
-  --global-theme-color: #{$cyan-color};
-  --global-hover-color: #{$cyan-color};
-  --global-footer-bg-color: #{$grey-color-light};
-  --global-footer-text-color: #{$grey-color-dark};
-  --global-footer-link-color: #{$black-color};
-  --global-distill-app-color: #{$grey-color-light};
-  --global-divider-color: #424246;
-  --global-card-bg-color: #{$grey-900};
-
-  .fa-sun {
-    padding-left: 10px;
-    padding-top: 12px;
-    display : block;
-  }
-  .fa-moon {
-    display : none;
-  }
-
-  .repo-img-light {
-    display: none;
-  }
-  .repo-img-dark {
-    display: block;
-  }
+  --global-text-color: #{$ink};
+  --global-text-color-light: #{$ink-faint};
+  --global-theme-color: #{$teal};
+  --global-hover-color: #{$teal};
+  --global-footer-bg-color: #{$bg};
+  --global-footer-text-color: #{$ink-faint};
+  --global-footer-link-color: #{$teal};
+  --global-distill-app-color: #{$ink-faint};
+  --global-divider-color: #{$rule};
+  --global-card-bg-color: #{$white};
 }
