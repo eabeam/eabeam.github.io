@@ -771,17 +771,22 @@ footer {
 
   .f-links {
     display: flex;
-    gap: 1.5rem;
+    gap: 1.25rem;
+    align-items: center;
 
     a {
-      font-family: 'Bricolage Grotesque', sans-serif;
-      font-size: 0.76rem;
       color: var(--ink-faint);
       text-decoration: none;
       transition: color 0.25s;
+      display: flex;
 
       &:hover {
         color: var(--teal);
+        text-decoration: none;
+      }
+
+      svg {
+        display: block;
       }
     }
   }

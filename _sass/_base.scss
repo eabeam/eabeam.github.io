@@ -20,10 +20,12 @@ hr {
 a {
   color: var(--teal);
   text-decoration: none;
-  transition: color 0.25s;
+  cursor: pointer;
+  transition: color 0.25s, text-decoration-color 0.25s;
   &:hover {
     color: darken(#1a7a6d, 8%);
     text-decoration: underline;
+    text-decoration-color: currentColor;
   }
 }
 
