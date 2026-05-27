@@ -106,11 +106,13 @@ hr {
 a {
   color: var(--teal);
   text-decoration: none;
-  transition: color 0.25s;
+  cursor: pointer;
+  transition: color 0.25s, text-decoration-color 0.25s;
 }
 a:hover {
   color: rgb(18.8324324324, 88.3675675676, 78.9513513514);
   text-decoration: underline;
+  text-decoration-color: currentColor;
 }
 
 figure, img {
@@ -1035,17 +1037,21 @@ footer span {
 }
 footer .f-links {
   display: flex;
-  gap: 1.5rem;
+  gap: 1.25rem;
+  align-items: center;
 }
 footer .f-links a {
-  font-family: "Bricolage Grotesque", sans-serif;
-  font-size: 0.76rem;
   color: var(--ink-faint);
   text-decoration: none;
   transition: color 0.25s;
+  display: flex;
 }
 footer .f-links a:hover {
   color: var(--teal);
+  text-decoration: none;
+}
+footer .f-links a svg {
+  display: block;
 }
 footer .footer-friend {
   width: 80px;
