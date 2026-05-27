@@ -4,8 +4,8 @@ layout: default
 
 <!-- HERO -->
 <header class="hero">
-  <div class="hero-photo-side">
-    <img src="https://images.unsplash.com/photo-1532619675605-1ede6c2ed2b0?w=800&h=600&fit=crop" alt="Field research">
+  <div class="hero-photo-side hero-headshot">
+    <img src="{{ '/assets/img/beam_pic_21.jpg' | relative_url }}" alt="Emily Beam">
   </div>
   <div class="hero-text-side">
     <h1>{{ site.first_name }} {{ site.last_name }}</h1>
@@ -21,26 +21,6 @@ layout: default
   </div>
 </header>
 
-<!-- AFFILIATION + GEOGRAPHY STRIP -->
-<div class="strip-bar">
-  <div class="strip-inner">
-    <div class="affil-chips">
-      <a href="https://www.uvm.edu/gund" class="affil-chip">Gund Institute</a>
-      <a href="https://www.iza.org/" class="affil-chip">IZA</a>
-      <a href="https://www.povertyactionlab.org/" class="affil-chip">J-PAL</a>
-    </div>
-    <div class="geo-markers">
-      <span class="geo-tag"><span class="geo-dot ph"></span> Philippines</span>
-      <span class="geo-tag"><span class="geo-dot bd"></span> Bangladesh</span>
-      <span class="geo-tag"><span class="geo-dot ke"></span> Kenya</span>
-      <span class="geo-tag"><span class="geo-dot mw"></span> Malawi</span>
-      <span class="geo-tag"><span class="geo-dot zw"></span> Zimbabwe</span>
-      <span class="geo-tag"><span class="geo-dot br"></span> Brazil</span>
-      <span class="geo-tag"><span class="geo-dot us"></span> US</span>
-    </div>
-  </div>
-</div>
-
 <!-- PUBLICATIONS — rendered via jekyll-scholar -->
 <section id="publications">
   <div class="section-head">
@@ -55,8 +35,10 @@ layout: default
 </section>
 
 <!-- PHOTO BREAK -->
-<div class="photo-break">
-  <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1400&h=300&fit=crop&crop=bottom" alt="Research context">
+<div class="photo-break photo-break-mosaic">
+  <img src="{{ '/assets/img/hero/kenya-enumerators.jpg' | relative_url }}" alt="Enumerators in a Kidogo classroom" style="object-position: center 65%;">
+  <img src="{{ '/assets/img/hero/bangladesh-reading.jpg' | relative_url }}" alt="Participant reading research materials in Bangladesh" style="object-position: 50% 50%;">
+  <img src="{{ '/assets/img/hero/loom.jpg' | relative_url }}" alt="Weaving loom with colorful threads" style="object-position: 50% 50%;">
 </div>
 
 <!-- WORKING PAPERS & WORKS IN PROGRESS -->
@@ -113,6 +95,12 @@ layout: default
   </div>
   {% endif %}
 </section>
+
+<!-- PHOTO BREAK 2 -->
+<div class="photo-break photo-break-duo">
+  <img src="{{ '/assets/img/hero/kenya-daycare.jpg' | relative_url }}" alt="Daycare center in Kenya">
+  <img src="{{ '/assets/img/hero/philippines-truck.jpg' | relative_url }}" alt="Water buffalo and truck in the Philippines">
+</div>
 
 <!-- TEACHING -->
 <section id="teaching">
