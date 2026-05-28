@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Hero Headshot Options</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Bricolage+Grotesque:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #fcfaf7;
+  --white: #ffffff;
+  --ink: #1e1e1e;
+  --ink-soft: #4a4a4a;
+  --ink-faint: #8a8a8a;
+  --teal: #1a7a6d;
+  --teal-bg: #e6f3f0;
+  --rule: #e5e2dc;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: #e5e2dc; font-family: 'Bricolage Grotesque', sans-serif; padding: 2rem; }
+
+h2.label {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--teal);
+  margin-bottom: 1rem;
+  padding-left: 0.5rem;
+}
+
+.option { margin-bottom: 3rem; }
+
+/* Shared hero structure */
+.hero-photo-side {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-text-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2.5rem 3.5rem;
+  background: var(--white);
+}
+
+.hero-text-side h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.6rem;
+  font-weight: 400;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.5rem;
+}
+
+.hero-title {
+  font-size: 0.82rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin-bottom: 1rem;
+}
+
+.bio {
+  font-family: 'Playfair Display', serif;
+  font-size: 0.95rem;
+  color: var(--ink-soft);
+  line-height: 1.8;
+  max-width: 480px;
+}
+
+.bio strong { color: var(--ink); }
+
+.hero-affiliations {
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin-top: 1rem;
+}
+
+.hero-affiliations a {
+  color: var(--ink-faint);
+  text-decoration: none;
+}
+
+.hero-projects {
+  margin-top: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.hero-pill {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--teal);
+  background: var(--teal-bg);
+  border: 1px solid rgba(26,122,109,0.15);
+  padding: 0.35rem 0.9rem;
+  border-radius: 100px;
+  text-decoration: none;
+  display: inline-block;
+  width: fit-content;
+}
+
+/* === OPTION A: Narrow photo column, gradient bg, card pushed right === */
+.optA {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  max-width: 1100px;
+  overflow: hidden;
+}
+
+.optA .hero-photo-side {
+  max-height: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1.5rem;
+  background: linear-gradient(145deg, #c8debb 0%, #dce8d4 35%, var(--bg) 100%);
+}
+
+.optA .hero-photo-side img {
+  width: 200px;
+  height: auto;
+  max-height: 300px;
+  object-fit: cover;
+  object-position: center 15%;
+  border-radius: 4px;
+  filter: saturate(0.95) brightness(0.98);
+  box-shadow: 0 8px 40px rgba(26,122,109,0.12), 0 2px 8px rgba(0,0,0,0.06);
+}
+
+/* === OPTION B: No separate column — photo floats inside the text side === */
+.optB {
+  display: block;
+  max-width: 1100px;
+  overflow: hidden;
+}
+
+.optB .hero-text-side {
+  padding: 2.5rem 3.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3rem;
+}
+
+.optB .hero-photo-side {
+  flex-shrink: 0;
+  background: linear-gradient(145deg, #c8debb 0%, #dce8d4 35%, var(--bg) 100%);
+  padding: 1.5rem;
+  border-radius: 6px;
+}
+
+.optB .hero-photo-side img {
+  width: 190px;
+  height: auto;
+  max-height: 280px;
+  object-fit: cover;
+  object-position: center 15%;
+  border-radius: 4px;
+  filter: saturate(0.95) brightness(0.98);
+  box-shadow: 0 8px 40px rgba(26,122,109,0.12), 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.optB .hero-content {
+  flex: 1;
+}
+
+/* === OPTION C: 2fr/3fr grid but gradient bleeds into text side === */
+.optC {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  max-width: 1100px;
+  overflow: hidden;
+}
+
+.optC .hero-photo-side {
+  max-height: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 2rem;
+  background: linear-gradient(145deg, #c8debb 0%, #dce8d4 35%, var(--bg) 100%);
+}
+
+.optC .hero-photo-side img {
+  width: 220px;
+  height: auto;
+  max-height: 320px;
+  object-fit: cover;
+  object-position: center 15%;
+  border-radius: 4px;
+  filter: saturate(0.95) brightness(0.98);
+  box-shadow: 0 8px 40px rgba(26,122,109,0.12), 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.optC .hero-text-side {
+  background: linear-gradient(90deg, var(--bg) 0%, var(--white) 15%);
+}
+</style>
+</head>
+<body>
+
+<div class="option">
+  <h2 class="label">A — Narrow photo column (1fr / 3fr)</h2>
+  <div class="optA">
+    <div class="hero-photo-side">
+      <img src="../beam_pic_21.jpg" alt="Emily Beam">
+    </div>
+    <div class="hero-text-side">
+      <h1>Emily Beam</h1>
+      <p class="hero-title">Associate Professor of Economics · University of Vermont</p>
+      <div class="bio">I'm a development economist specializing in <strong>randomized impact evaluations</strong> in partnership with governments and NGOs. My work builds evidence on what works in employment, education, and social inclusion across six countries.</div>
+      <p class="hero-affiliations"><a href="#">Gund Institute</a> · <a href="#">IZA</a> · <a href="#">J-PAL</a></p>
+      <div class="hero-projects">
+        <a href="#" class="hero-pill">QuICK Project — Childcare Quality in Kenya →</a>
+        <a href="#" class="hero-pill">Thinking with Agents →</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="option">
+  <h2 class="label">B — Photo inside text area (single column)</h2>
+  <div class="optB">
+    <div class="hero-text-side">
+      <div class="hero-photo-side">
+        <img src="../beam_pic_21.jpg" alt="Emily Beam">
+      </div>
+      <div class="hero-content">
+        <h1>Emily Beam</h1>
+        <p class="hero-title">Associate Professor of Economics · University of Vermont</p>
+        <div class="bio">I'm a development economist specializing in <strong>randomized impact evaluations</strong> in partnership with governments and NGOs. My work builds evidence on what works in employment, education, and social inclusion across six countries.</div>
+        <p class="hero-affiliations"><a href="#">Gund Institute</a> · <a href="#">IZA</a> · <a href="#">J-PAL</a></p>
+        <div class="hero-projects">
+          <a href="#" class="hero-pill">QuICK Project — Childcare Quality in Kenya →</a>
+          <a href="#" class="hero-pill">Thinking with Agents →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="option">
+  <h2 class="label">C — 2fr/3fr grid, gradient bleeds across columns</h2>
+  <div class="optC">
+    <div class="hero-photo-side">
+      <img src="../beam_pic_21.jpg" alt="Emily Beam">
+    </div>
+    <div class="hero-text-side">
+      <h1>Emily Beam</h1>
+      <p class="hero-title">Associate Professor of Economics · University of Vermont</p>
+      <div class="bio">I'm a development economist specializing in <strong>randomized impact evaluations</strong> in partnership with governments and NGOs. My work builds evidence on what works in employment, education, and social inclusion across six countries.</div>
+      <p class="hero-affiliations"><a href="#">Gund Institute</a> · <a href="#">IZA</a> · <a href="#">J-PAL</a></p>
+      <div class="hero-projects">
+        <a href="#" class="hero-pill">QuICK Project — Childcare Quality in Kenya →</a>
+        <a href="#" class="hero-pill">Thinking with Agents →</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
