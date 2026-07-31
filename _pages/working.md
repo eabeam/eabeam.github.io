@@ -16,7 +16,9 @@ nav_order: 1
   - [HECO Discussion Paper 2022-030](http://humcap.uchicago.edu/RePEc/hka/wpaper/Beam_Mukherjee_Navarro-Sola_2022_lowering-barriers-remote-education.pdf)
   - [IZA Working Paper No 15596](https://docs.iza.org/dp15596.pdf)
 
+[**Hiring Discrimination Against Transgender Job Applicants in the US Labor Market**](/assets/pdf/BeamStanton-Discrimination_Jobseekers_2026.pdf), with Ivy Stanton
 
+- [AEA Trial Registry AEARCTR-0013199](https://www.socialscienceregistry.org/trials/13199)
 
 
 ---
@@ -32,10 +34,6 @@ nav_order: 1
 **Gender Norms at Work: Impacts on Women’s Hiring and Workplace Experiences in Bangladesh**, with Joshua Merfeld and Naveen Wickremeratne, [conditionally accepted at the *Journal of Development Economics,* Stage 1 Review](https://afosterri.org/jdepreresults/wp-content/uploads/2025/06/beam-merfeld-wickremeratne-improving-gender-norms-in-the-workpla-fae81fdd6c5501c2ce989054fa0522ab.pdf)
 
 - [AEA Trial Registry AEARCTR-0013473](https://www.socialscienceregistry.org/trials/13473)
-
-**Hiring Discrimination Against Transgender Job Applicants in the US Labor Market**, with Ivy Stanton
-
-- [AEA Trial Registry AEARCTR-0013199](https://www.socialscienceregistry.org/trials/13199)
 
 **Supporting Early Education to Increase Higher Education Enrollment in the Philippines**, with Noam Angrist, Dean Karlan, Rene Marlon Panti, and Christopher Udry
 - [Project Website](https://poverty-action.org/supporting-early-education-increase-higher-education-enrollment-philippines)
