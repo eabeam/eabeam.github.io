@@ -110,7 +110,7 @@ a {
   transition: color 0.25s, text-decoration-color 0.25s;
 }
 a:hover {
-  color: rgb(18.8324324324, 88.3675675676, 78.9513513514);
+  color: rgb(7.3852676206%, 34.6539480657%, 30.9613142554%);
   text-decoration: underline;
   text-decoration-color: currentColor;
 }
